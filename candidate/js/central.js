@@ -89,7 +89,7 @@ button_container.append(button);
 
 comp.append(button_container);
 }
-button_total(button_comp);
+// button_total(button_comp);
 
 
 

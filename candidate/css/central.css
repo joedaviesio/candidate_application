@@ -91,43 +91,6 @@ a {
   }
 }
 
-#button_container {
-  width: clamp(25vw, 300px, 65vw);
-  display: flex;
-  justify-content: center;
-  margin-top: 33px;
-}
-
-#button_container .button {
-  width: 75%;
-  padding: 10px;
-  border: none;
-  background-color: #bf606b;
-  color: #fffdfd;
-  font-family: "hero-new", "Open Sans";
-  font-size: 2rem;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (max-width: 400px) {
-  #button_container .button {
-    font-size: 1rem;
-  }
-}
-
-.button:hover {
-  color: black;
-  background-color: #d82c20;
-  cursor: pointer;
-}
-
-.fa-thumbs-up {
-  padding-left: 8px;
-}
-
 .footer_buffer {
   padding: 100px;
 }
@@ -420,6 +383,7 @@ a {
   font-family: "hero-new", "Open Sans";
   align-self: baseline;
   cursor: pointer;
+  background-color: gray;
 }
 
 .webappby a {
@@ -472,7 +436,6 @@ a {
 }
 
 .button_container .button {
-  width: 75%;
   padding: 10px;
   border: none;
   background-color: #bf606b;
@@ -480,14 +443,18 @@ a {
   font-family: "hero-new", "Open Sans";
   font-size: 2rem;
   border-radius: 30px;
+}
+
+.button_container .button .contact {
+  padding-right: 10px;
+  padding-left: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
 }
 
 @media (max-width: 400px) {
   .button_container .button {
-    font-size: 1rem;
+    font-size: 1.33rem;
   }
 }
 

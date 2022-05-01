@@ -95,48 +95,6 @@
 
 
 
-
-#button_container {
-    width: clamp(25vw, 300px, 65vw);
-    display: flex;
-    justify-content: center;
-    margin-top: 33px;
-
-    .button {
-        width: 75%;
-        padding: 10px;
-        border: none;
-        background-color: $button1_color;
-        color: $button1_font_color;
-        font-family: $button1_font;
-        font-size: $button1_font_size;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        @media (max-width: 400px) 
-        {
-
-        font-size: 1rem;
-
-        }
-  
-    }
-
-
-    }
-    .button:hover {
-        color: black;
-        background-color: $button_hover_color;
-        cursor: pointer;
-      }
-
-      .fa-thumbs-up {
-          padding-left: 8px;
-      }
-    
-
-
 .footer_buffer {
     padding: 100px;
 }
@@ -465,6 +423,7 @@
     font-family: $text_font;
     align-self: baseline;
     cursor: pointer;
+    background-color: gray;
     a {
     font-family: "ohm-bold", "Open Sans";;
     }
@@ -530,8 +489,10 @@
     justify-content: center;
     margin-top: 33px;
 
+
     .button {
-        width: 75%;
+
+
         padding: 10px;
         border: none;
         background-color: $button1_color;
@@ -539,13 +500,17 @@
         font-family: $button1_font;
         font-size: $button1_font_size;
         border-radius: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        .contact {
+            padding-right: 10px;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+
         @media (max-width: 400px) 
         {
 
-        font-size: 1rem;
+        font-size: 1.33rem;
 
         }
   

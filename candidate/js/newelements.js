@@ -156,4 +156,4 @@ dt4.onclick = socials_display;
 
 dt5.onclick = contact_display;
 
-button.onclick = contact_display;
+// button.onclick = contact_display;
