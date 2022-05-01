@@ -1,6 +1,6 @@
 let titles = {
-    prime_header: 'Candidate Application',
-    slogan: "with the people of Christchurch",
+    prime_header: 'Craig Pauling',
+    slogan: "with the people of Ōpuna",
     sub1: 'bio',
     sub2: 'policy',
     sub3: 'blog',
@@ -20,7 +20,7 @@ let button_icon = {
 }
 
 let photos = {
-    bio_01: '/candidate/src/img/bio/jake_bio.jpg',
+    bio_01: '/candidate/src/img/bio/craig_pauling_bio.jpg',
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG'
 }
 
