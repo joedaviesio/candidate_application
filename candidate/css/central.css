@@ -586,4 +586,25 @@ a {
   margin-top: 20px;
   margin-bottom: 23px;
 }
+
+.text_container_secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_container_secondary .text_container_y {
+  background-color: rgba(7, 4, 5, 0.783);
+  border-radius: 22px;
+}
+
+.text_container_secondary .text_container_y .text {
+  justify-self: center;
+  width: clamp(50vw, 800px, 90vw);
+  color: white;
+  font-family: "hero-new", "Open Sans";
+  text-align: center;
+  padding: clamp(20px, 10px, 5%);
+  font-size: 1rem;
+}
 /*# sourceMappingURL=central.css.map */
