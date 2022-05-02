@@ -127,3 +127,28 @@
     margin-bottom: 23px;
 }
 
+.text_container_secondary {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text_container_y {
+
+
+        background-color: rgba(7, 4, 5, 0.783);
+    
+        border-radius: 22px;
+        .text {
+            justify-self: center;
+            width: clamp(50vw, 800px, 90vw);
+            color: $text_color;
+            font-family: $text_font;
+            text-align: center;
+            padding: clamp(20px, 10px, 5%);
+            font-size: $text_size;
+    
+        }
+    }
+
+}
