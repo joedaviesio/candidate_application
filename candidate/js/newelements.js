@@ -41,7 +41,7 @@ function sub0_display(){
 
     input_container.style.display = 'none';
 
-    sub0.style.backgroundColor = '#d82c20';
+    sub0.style.backgroundColor = 'hsl(322, 68%, 55%)';
     sub1.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
 
@@ -66,7 +66,7 @@ function sub1_display(){
 
     input_container.style.display = 'none';
 
-    sub1.style.backgroundColor = '#d82c20';
+    sub1.style.backgroundColor = 'hsl(322, 68%, 55%)';
     sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     sub2.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
 
@@ -91,7 +91,7 @@ function sub2_display(){
     console.log('hello world');
     comp04.append(blog_wide); 
 
-    sub2.style.backgroundColor = '#d82c20';
+    sub2.style.backgroundColor = 'hsl(322, 68%, 55%)';
     sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
     sub1.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
 

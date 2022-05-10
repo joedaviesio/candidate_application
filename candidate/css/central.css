@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://use.typekit.net/ymd2hhv.css");
 @import url("https://use.typekit.net/gcv6ikt.css");
+@import url("https://use.typekit.net/svf1yop.css");
 *,
 ::after,
 ::before {
@@ -12,7 +13,7 @@
 
 a {
   text-decoration: none;
-  color: #fffdfd;
+  color: #303841;
   cursor: pointer;
 }
 
@@ -24,12 +25,11 @@ a {
 }
 
 .body_container {
-  background-color: #fffdfd;
+  background-color: #303841;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: white;
 }
 
 .prime_header_container {
@@ -38,15 +38,15 @@ a {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  background-color: #d82c20;
+  background-color: #bdbbb0;
 }
 
 .prime_header_container .prime_header {
-  font-family: "hero-new", "Open Sans";
+  font-family: "Essonnes-display", "Open Sans";
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fffdfd;
+  color: #303841;
   font-size: 3rem;
 }
 
@@ -57,7 +57,7 @@ a {
 }
 
 .prime_header_container #nav_bars {
-  color: #fffdfd;
+  color: #303841;
   align-self: center;
   cursor: pointer;
   padding: 5px;
@@ -74,14 +74,14 @@ a {
 .sub_header_container .sub_header {
   display: flex;
   justify-content: center;
-  color: #fffdfd;
-  font-family: "hero-new", "Open Sans";
+  color: black;
+  font-family: "Essonnes-display", "Open Sans";
   font-size: 1.4rem;
   font-style: normal;
   width: 100%;
   border-radius: 22px;
   padding: 5px;
-  background-color: #bf606b;
+  background-color: #bdbbb0;
   transition: background-color 1s ease-out;
 }
 
@@ -101,7 +101,7 @@ a {
   position: fixed;
   bottom: 0;
   padding: 11px;
-  background-color: #d82c20;
+  background-color: #da3ea1;
   z-index: 1;
 }
 
@@ -131,14 +131,14 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #bf606b;
+  background-color: #bdbbb0;
   margin-bottom: 22px;
   border-radius: 22px;
 }
 
 .text_container .text {
   width: clamp(50vw, 800px, 90vw);
-  color: white;
+  color: #303841;
   font-family: "hero-new", "Open Sans";
   text-align: justify;
   padding: clamp(20px, 10px, 5%);
@@ -167,16 +167,16 @@ a {
 
 .dropdown_container_wide .dropdown_container {
   width: 50%;
-  background-color: #bf606b;
+  background-color: #bdbbb0;
   border-radius: 22px;
-  border: solid 1px white;
+  border: solid 1px #303841;
   cursor: pointer;
 }
 
 .dropdown_container_wide .dropdown_container .dropdown_text {
   font-size: 1.4rem;
-  font-family: "hero-new", "Open Sans";
-  color: #fffdfd !important;
+  font-family: "Essonnes-display", "Open Sans";
+  color: #303841 !important;
   padding: 10px;
   text-align: center;
 }
@@ -212,37 +212,35 @@ a {
 }
 
 .list_wide .list_component .list_header_container_wide .list_header_container .list_icon {
-  color: #d82c20;
+  color: #bdbbb0;
 }
 
 .list_wide .list_component .list_header_container_wide .list_header_container .list_header {
-  border: solid 1px #bf606b;
+  border: solid 1px #bdbbb0;
   padding-bottom: 6px;
   padding-top: 6px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #d82c20;
-  font-family: "hero-new", "Open Sans";
-  font-weight: bolder;
+  color: white;
+  font-family: "Essonnes-display", "Open Sans";
   border-radius: 50px;
-  font-size: 1.25rem;
-  font-weight: 200;
+  font-size: 1.5rem;
   background-color: rgba(255, 255, 255, 0.652);
 }
 
 @media (max-width: 400px) {
   .list_wide .list_component .list_header_container_wide .list_header_container .list_header {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 
 .list_wide .list_component .list_text {
   text-align: justify;
   padding: 12px;
-  color: white;
+  color: #303841;
   font-family: "hero-new", "Open Sans";
   font-size: 1rem;
-  background-color: #bf606b;
+  background-color: #bdbbb0;
   border-radius: 22px;
 }
 
@@ -258,30 +256,36 @@ a {
 }
 
 .blog_wide .blog_component .blog_header_container_wide .blog_header_container .blog_icon {
-  color: #d82c20;
+  color: #bdbbb0;
 }
 
 .blog_wide .blog_component .blog_header_container_wide .blog_header_container .blog_header {
-  border: solid 1px #bf606b;
+  border: solid 1px #bdbbb0;
   padding-bottom: 6px;
   padding-top: 6px;
   padding-left: 15px;
   padding-right: 15px;
-  color: #d82c20;
-  font-family: "hero-new", "Open Sans";
+  color: white;
+  font-family: "Essonnes-display", "Open Sans";
   border-radius: 50px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   background-color: rgba(255, 255, 255, 0.652);
+}
+
+@media (max-width: 400px) {
+  .blog_wide .blog_component .blog_header_container_wide .blog_header_container .blog_header {
+    font-size: 1.3rem;
+  }
 }
 
 .blog_wide .blog_component .blog_text {
   width: clamp(50vw, 800px, 90vw);
   text-align: justify;
   padding: 12px;
-  color: white;
+  color: #303841;
   font-family: "hero-new", "Open Sans";
   font-size: 1rem;
-  background-color: #bf606b;
+  background-color: #bdbbb0;
   border-radius: 22px;
 }
 
@@ -302,13 +306,13 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  border: solid 2px #fffdfd;
-  background-color: #bf606b;
+  border: solid 2px #303841;
+  background-color: #bdbbb0;
   padding: 5px;
 }
 
 .socials_wide .socials_container .social_fa {
-  color: #fffdfd;
+  color: #303841;
 }
 
 .input_container {
@@ -326,11 +330,11 @@ a {
 }
 
 .input_container .fieldset .input {
-  font-family: "hero-new", "Open Sans", "hero-new", "Open Sans";
+  font-family: "hero-new", "Open Sans", "Essonnes-display", "Open Sans";
   width: clamp(50vw, 800px, 90vw);
   color: white;
   font-size: 1rem;
-  background-color: #bf606b;
+  background-color: #bdbbb0;
   padding: 10px;
   margin: 10px;
   border-radius: 33px;
@@ -349,9 +353,9 @@ a {
   margin-top: 10px;
   padding: 10px;
   border: none;
-  background-color: #bf606b;
-  color: #fffdfd;
-  font-family: "hero-new", "Open Sans";
+  background-color: #bdbbb0;
+  color: #303841;
+  font-family: "Essonnes-display", "Open Sans";
   font-size: 2rem;
   border-radius: 30px;
   display: flex;
@@ -366,7 +370,7 @@ a {
 }
 
 .input_container .fieldset .submit:hover {
-  background-color: #d82c20;
+  background-color: red;
   color: black;
   cursor: pointer;
 }
@@ -402,7 +406,7 @@ a {
 .third_header_container .third_header {
   font-family: "hero-new", "Open Sans";
   font-size: 2rem;
-  color: black;
+  color: white;
   font-weight: lighter;
   padding: 5px;
 }
@@ -438,9 +442,9 @@ a {
 .button_container .button {
   padding: 10px;
   border: none;
-  background-color: #bf606b;
-  color: #fffdfd;
-  font-family: "hero-new", "Open Sans";
+  background-color: #bdbbb0;
+  color: #303841;
+  font-family: "Essonnes-display", "Open Sans";
   font-size: 2rem;
   border-radius: 30px;
 }
@@ -460,7 +464,7 @@ a {
 
 .button:hover {
   color: black;
-  background-color: #d82c20;
+  background-color: #da3ea1;
   cursor: pointer;
 }
 
@@ -473,7 +477,7 @@ a {
 }
 
 .holds-the-iframe {
-  background: url(/candidate/src/img/gif/3d6aa9082f3c9e285df9970dc7b762ac.gif) center center no-repeat;
+  background: url(/candidate/src/img/gif/loading.gif) center center no-repeat;
 }
 
 .pricing_body {

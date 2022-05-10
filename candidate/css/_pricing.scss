@@ -50,7 +50,7 @@
     border-radius: 22px;
     .text {
         width: clamp(50vw, 800px, 90vw);
-        color: $text_color;
+        color: white;
         font-family: $text_font;
         text-align: justify;
         padding: clamp(20px, 10px, 5%);
@@ -142,7 +142,7 @@
         .text {
             justify-self: center;
             width: clamp(50vw, 800px, 90vw);
-            color: $text_color;
+            color: white;
             font-family: $text_font;
             text-align: center;
             padding: clamp(20px, 10px, 5%);

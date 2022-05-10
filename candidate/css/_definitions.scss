@@ -6,16 +6,16 @@
   padding: 0;
 }
 
-$primarylight: rgb(255, 253, 253);
-$primaryred: #d82c20;
+$primarylight: #303841;
+$primaryred: #bdbbb0;
 $primaryyellow: black;
 $primarydark: rgb(168, 168, 168);
 $primarygray: rgb(53, 53, 53);
 $secondarygray: rgba(128, 128, 128, 0.3);
-$secondaryred: rgb(191, 96, 107);
-$s: rgba(191, 96, 107, 0.518);
+$secondaryred: #bdbbb0;
+$s: hsl(322, 68%, 55%);
 
-$primaryfont: 'hero-new', 'Open Sans';
+$primaryfont: 'Essonnes-display', 'Open Sans';
 $secondaryfont:  'hero-new', 'Open Sans';
 $thirdfont: 'quasimoda', 'Open Sans';
 
@@ -24,12 +24,13 @@ $bodycolor: $primarylight;
 $prime_header_color: $primarylight;
 $navcolor: $primarylight;
 
-$sub_header_color: $primarylight;
+$sub_header_color: black;
 $sub_header_opening_color: $secondaryred;
-$text_color: white;
-$sub_header_background_color: white;
 
-$footercolor: $primaryred;
+$text_color: $primarylight;
+$sub_header_background_color: $primarylight;
+
+$footercolor: $s;
 
 $dropdown_color: $secondaryred;
 $dropdown_text_color: $primarylight;
@@ -39,12 +40,12 @@ $button1_font_color: $primarylight;
 $button_hover_color: $primaryred;
 
 $submit_button_color: $primaryred;
-$submit_hover_button_color: $primaryred;
+
 
 
 $list_fa: $primaryred;
-$list_header_color: $primaryred;
-$list_text_color: white;
+$list_header_color: white;
+$list_text_color: $primarylight;
 $list_header_border: $secondaryred;
 $list_text_background_color: $secondaryred;
 $list_text_border_color: white;
@@ -58,9 +59,10 @@ $socials_border_color: $primarylight;
 $text_background_color: $secondaryred;
 
 
-$dropdown_container_border: white;
+$dropdown_container_border: $primarylight;
 
 $prime_header_font: $primaryfont;
+
 
 
 $sub_header_font: $primaryfont;
@@ -85,7 +87,7 @@ $list_header_font: $primaryfont;
 
 $list_text_font: $secondaryfont;
 
-$third_header_font: $primaryfont;
+$third_header_font: $secondaryfont;
 
 
 
@@ -103,7 +105,7 @@ a {
 $prime_header_font_size: 3rem;
 $third_header_font_size: 2rem;
 $list_text_font_size: 1rem;
-$list_header_font_size: 1.25rem;
+$list_header_font_size: 1.5rem;
 $button1_font_size: 2rem;
 $sub_header_font_size: 1.4rem;
 $text_size: 1rem;
