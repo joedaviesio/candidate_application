@@ -67,7 +67,7 @@
         color: $sub_header_color;
         font-family: $sub_header_font;
         font-size: $sub_header_font_size;
-        font-style: normal;
+        font-style: italic;
         width: 100%;
         border-radius: 22px;
         padding: 5px;
@@ -360,14 +360,14 @@
         .input {
             font-family: $secondaryfont, $primaryfont;
             width: clamp(50vw, 800px, 90vw);
-            color: white;
+            color: $primarylight;
             font-size: 1rem;
             background-color: $socials_background_color;
             padding: 10px;
             margin: 10px;
             border-radius: 33px;
             border: none;
-            border: solid 1px white;
+
         }
         .captcha_style {
             display: flex;
