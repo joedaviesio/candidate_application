@@ -1,6 +1,6 @@
 let titles = {
-    prime_header: 'Candidate Application',
-    slogan: "with the people of Christchurch",
+    prime_header: 'Joe Davies',
+    slogan: "for Christchurch and for the Mainland.",
     sub1: 'bio',
     sub2: 'policy',
     sub3: 'blog',
@@ -20,13 +20,14 @@ let button_icon = {
 }
 
 let photos = {
-    bio_01: '/candidate/src/img/bio/jake_bio.jpg',
+    landing: '/candidate/src/img/bio/joe_cand.JPG',
+    bio_01: '/candidate/src/img/bio/joe_wetlands.JPG',
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG'
 }
 
 let para = {
 
-    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iure quam perspiciatis? Doloremque vel, facere officia possimus harum voluptatum! Quaerat, suscipit. Voluptates asperiores veniam nobis quibusdam, accusamus, recusandae nostrum tempora expedita esse blanditiis, perferendis eveniet? At doloribus ex porro illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iure quam perspiciatis? Doloremque vel, facere officia possimus harum voluptatum! Quaerat, suscipit. Voluptates asperiores veniam nobis quibusdam, accusamus, recusandae nostrum tempora expedita esse blanditiis, perferendis eveniet? At doloribus ex porro illum."
+    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently self-employed as a digital designer. Christchurch is a beautiful place to live. If given the honour of serving as a North Eastern/Orei Regional Councillor at ECAN, I will place the preservation and enhancement of our natural and landscaped environments at the forefront of my decision making. Please view the policy to see what my tpc colleagues and I are standing for. <br> <br> Vote Joe Davies for Christchurch and for the Mainland."
     
 
 
@@ -46,44 +47,52 @@ let list_icon = {
 }
 
 let list_1 = {
-    title: 'no asset sales',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore.',
+    title: 'Water.',
+    text: 'For safe drinking water and swimmable rivers.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 let list_2 = {
-    title: 'funding for community facilities',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore.',
+    title: 'Transport.',
+    text: 'For low fares, accessible routes and the exploration of rail for greater Christchurch and Canterbury.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 
 let list_3 = {
-    title: 'policy 3',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore.',
+    title: 'Biodiversity.',
+    text: 'For increased funding for biodiversity projects.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 
 let list_4 = {
-    title: 'policy 4',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore.',
+    title: 'Democracy.',
+    text: 'For public and digital access to regional council meetings.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 let list_5 = {
-    title: 'policy 5',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore.',
+    title: 'Climate change.',
+    text: 'To fast track climate adaptation and mitigation schemes.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 
-let list_total = [list_1, list_2, list_3, list_4, list_5];
+let list_6 = {
+    title: 'Public ownership.',
+    text: 'To keep strategic assets in public hands.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+let list_total = [list_1, list_2, list_3, list_4, list_5, list_6];
 
 console.log(list_total[0]);
 
@@ -137,8 +146,8 @@ let blog_7 = {
 
 
 let blog_9 = {
-    title: '25 December 10:18',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, iusto repellendus magni obcaecati ratione doloribus possimus temporibus reiciendis laudantium. Adipisci, vel consequuntur hic cumque, qui odit aliquam officia a impedit, repellendus fugit reiciendis debitis tempore.',
+    title: '10 June 09:07',
+    text: 'I have just launched my campaign website. I will update it along the campaign but I would also reccomend checking out my facebook to follow my campaign via social media. <a href="https://www.facebook.com/joedaviesforecan">Click here for a link to my profile. Thank you.</a> ',
     blog_img_boolean: 'false',
     icon_type: blog_icon.type, 
     icon_title: blog_icon.title,
@@ -149,7 +158,7 @@ let blog_9 = {
 
 
 
-let blog_total = [ blog_2,blog_4, blog_7, blog_9];
+let blog_total = [ blog_9];
 
 
 let insta_icon = {
@@ -175,14 +184,14 @@ let socials_1 = {
 }
 
 let socials_2 = {
-    href: "https://www.facebook.com",
+    href: "https://www.facebook.com/joedaviesforecan",
 
     icon_type: fb_icon.type, 
     icon_title: fb_icon.title,
     icon_size: fb_icon.size
 }
 
-let socials_total = [socials_1, socials_2];
+let socials_total = [socials_2];
 
 let video_list = {
     techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/C-SFjuHTwWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
