@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+
     // background-image: linear-gradient(rgba(20, 228, 193, 0.605), beige);
 
 
@@ -67,7 +67,7 @@
         color: $sub_header_color;
         font-family: $sub_header_font;
         font-size: $sub_header_font_size;
-        font-style: normal;
+        font-style: italic;
         width: 100%;
         border-radius: 22px;
         padding: 5px;
@@ -231,16 +231,16 @@
                     padding-right: 15px;
                     color: $list_header_color;
                     font-family: $list_header_font;
-                    font-weight: bolder;
+
                     border-radius: 50px;
                     font-size: $list_header_font_size;
-                    font-weight: 200;
+
                     background-color: rgba(255, 255, 255, 0.652);
 
                     @media (max-width: 400px) 
                     {
                 
-                    font-size: 1.2rem;
+                    font-size: 1.3rem;
                 
                     }
                     
@@ -289,6 +289,12 @@
                     border-radius: 50px;
                     font-size: $list_header_font_size;
                     background-color: rgba(255, 255, 255, 0.652);
+                    @media (max-width: 400px) 
+                    {
+                
+                    font-size: 1.3rem;
+                
+                    }
                 }
             }
 
@@ -354,14 +360,14 @@
         .input {
             font-family: $secondaryfont, $primaryfont;
             width: clamp(50vw, 800px, 90vw);
-            color: white;
+            color: $primarylight;
             font-size: 1rem;
             background-color: $socials_background_color;
             padding: 10px;
             margin: 10px;
             border-radius: 33px;
             border: none;
-            border: solid 1px white;
+
         }
         .captcha_style {
             display: flex;
@@ -396,7 +402,7 @@
         
         }
         .submit:hover {
-           background-color: $submit_hover_button_color;
+           background-color: red;
             color: black;
             cursor: pointer;
  
@@ -447,7 +453,7 @@
         .third_header {
             font-family: $third_header_font;
             font-size: $third_header_font_size;
-            color: black;
+            color: white;
             font-weight: lighter;
             padding: 5px;
  
@@ -520,7 +526,7 @@
     }
     .button:hover {
         color: black;
-        background-color: $button_hover_color;
+        background-color: $s;
         cursor: pointer;
       }
 
@@ -535,7 +541,7 @@
 
 
 .holds-the-iframe {
-  background:url(/candidate/src/img/gif/3d6aa9082f3c9e285df9970dc7b762ac.gif) center center no-repeat;
+  background:url(/candidate/src/img/gif/loading.gif) center center no-repeat;
 }
 
 
