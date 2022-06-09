@@ -95,12 +95,12 @@ comp.append(button_container);
 
 
 // footer
-function footer_total(comp){
-let footer = document.createElement('div');
-footer.classList.add('footer');
-comp.append(footer);
-}
-footer_total(footer_comp);
+// function footer_total(comp){
+// let footer = document.createElement('div');
+// footer.classList.add('footer');
+// comp.append(footer);
+// }
+// footer_total(footer_comp);
 
 // img1 
 function img1_total(comp, popo){
@@ -123,7 +123,7 @@ comp.append(img1_wide);
 
 img1.src = popo;
 }
-// img1_total(comp05, photos.landing);
+img1_total(comp05, photos.landing);
 // img1_total(comp06, photos.landing);
 
 // text

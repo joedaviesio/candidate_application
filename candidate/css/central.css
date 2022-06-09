@@ -476,6 +476,21 @@ a {
   background: url(/candidate/src/img/gif/3d6aa9082f3c9e285df9970dc7b762ac.gif) center center no-repeat;
 }
 
+.contact_header {
+  font-family: "hero-new", "Open Sans";
+  font-size: 2rem;
+}
+
+.contact_text {
+  font-family: "hero-new", "Open Sans";
+  font-size: 1.2rem;
+}
+
+.autho {
+  font-family: "hero-new", "Open Sans";
+  font-size: 0.8rem;
+}
+
 .pricing_body {
   display: flex;
   flex-direction: column;
