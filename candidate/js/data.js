@@ -1,6 +1,6 @@
 let titles = {
     prime_header: 'Joe Davies',
-    slogan: "for Christchurch and for the Mainland.",
+    slogan: "for Christchurch and for Canterbury.",
     sub1: 'bio',
     sub2: 'policy',
     sub3: 'blog',
