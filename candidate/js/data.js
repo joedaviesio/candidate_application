@@ -78,7 +78,7 @@ let list_4 = {
 }
 let list_5 = {
     title: 'Climate change.',
-    text: 'To fast track climate adaptation and mitigation schemes.',
+    text: 'To build climate resilience in Canterbury.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
@@ -147,7 +147,7 @@ let blog_7 = {
 
 let blog_9 = {
     title: '10 June 09:07',
-    text: 'I have just launched my campaign website. I will update it along the campaign but I would also reccomend checking out my facebook to follow my campaign via social media. <a href="https://www.facebook.com/joedaviesforecan">Click here for a link to my profile. Thank you.</a> ',
+    text: 'I have just launched my campaign website. I will update it along the campaign but I would also reccomend checking out my facebook to follow my campaign via social media. <a href="https://www.facebook.com/joedaviesforecan">Click here for a link to my profile.</a> ',
     blog_img_boolean: 'false',
     icon_type: blog_icon.type, 
     icon_title: blog_icon.title,
