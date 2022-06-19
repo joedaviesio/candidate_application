@@ -1,6 +1,6 @@
 let titles = {
     prime_header: 'Joe Davies',
-    slogan: "for Christchurch and for Canterbury.",
+    slogan: "for a resilient Canterbury.",
     sub1: 'bio',
     sub2: 'policy',
     sub3: 'blog',
@@ -27,7 +27,7 @@ let photos = {
 
 let para = {
 
-    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently self-employed as a digital designer. Christchurch is a beautiful place to live. If given the honour of serving as a North Eastern/Orei Regional Councillor at ECAN, I will place the preservation and enhancement of our natural and landscaped environments at the forefront of my decision making. Please view the policy to see what my tpc colleagues and I are standing for. <br> <br> Vote Joe Davies for Christchurch and for the Mainland."
+    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently self-employed as a digital designer. Christchurch is a beautiful place to live. If given the honour of serving as a North Eastern/Orei Regional Councillor at ECAN, I will place the preservation and enhancement of our natural and landscaped environments at the forefront of my decision making. Please view the policy to see what my tpc colleagues and I are standing for. <br> <br> Vote Joe Davies for a resilient Canterbury."
     
 
 
@@ -154,11 +154,19 @@ let blog_9 = {
     icon_size: blog_icon.size
 }
 
+let blog_10 = {
+    title: '20 June 09:54',
+    text: 'Working on my 150 words.</a> ',
+    blog_img_boolean: 'false',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
 
 
 
 
-let blog_total = [ blog_9];
+let blog_total = [ blog_9, blog_10];
 
 
 let insta_icon = {
