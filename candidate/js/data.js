@@ -55,7 +55,7 @@ let list_1 = {
 }
 let list_2 = {
     title: 'Transport.',
-    text: 'For low fares, accessible routes and the exploration of rail for greater Christchurch and Canterbury.',
+    text: 'For low fares, accessible routes and a commitment to a mass rapid transit system for greater Christchurch and Canterbury.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
