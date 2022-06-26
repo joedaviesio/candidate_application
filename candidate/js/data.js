@@ -163,10 +163,19 @@ let blog_10 = {
     icon_size: blog_icon.size
 }
 
+let blog_11 = {
+    title: '27 June 08:54',
+    text: "12 weeks until voting papers go out. Getting into a crucial period of the campaign when things start heating up and people start declaring and political posturing begins. I'm really enjoying the campaign so far. I reached the milestone of having talked to 500 households yesterday. Overwhelmingly people are friendly and have thoughts on local governance in Christchurch. Community outreach is something important in my opinion to development as a candidate and if successful in the campaign as a politician. We should always keep the community at the forefront of our work and decision making. It seems that sometimes bureacracies in ivory towers seem to forget this. They spend swathes of their time defending our large multi billion institutions against public scrutiny over poor decision making. Often from individuals spending their own time raising issues of public significance. The Bromley sewerage treatment environmental disaster highlights this. I spoke to a resident in South New Brighton yesterday who said that council staff told her that there was no mould growing as a result of the Bromley sewerage facility malfunction. People accross the east are finding a black substance growing on their house that has never been seen before. I did some digging to find out what was going on and lo and behold council had determined that the black substance wasn't mould. And it was journalists who'd gotten this information is wasn't a public info release. Thus staff were using orwellian newspeak to disquell this womans fears because she'd approached them and said 'theres mould on my house from Bromley' and they said 'there's no mould from Bromley, its seasonal mould'. Without saying that 'there is an unidentified substance on peoples properties throughout the east that we don't know the cause of'. If Council aren't taking responsibility then ECAN should prosecute them. Plain and simple. The fire was an 'act of god' as we're told, but the fact that the plant was left to fester over summer and autumn wasn't.</a> ",
+    blog_img_boolean: 'false',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
 
 
 
-let blog_total = [ blog_9, blog_10];
+
+let blog_total = [ blog_9, blog_10, blog_11];
 
 
 let insta_icon = {
