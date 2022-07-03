@@ -171,11 +171,19 @@ let blog_11 = {
     icon_title: blog_icon.title,
     icon_size: blog_icon.size
 }
+let blog_12 = {
+    title: '03 July 21:50',
+    text: "Just had a nice weekend away in Hanmer at my parents place who reside up here. Went for a run in the stark landscape/grassland of the St James conservation area that borders the Molesworth (NZ's largest station). It's worth remembering that the Regional Council covers the entire Canterbury Province so from north beyond this photo of Maukuratawhai, to way down south past Mt Cook and the Mackenzie district. Its a huge area of varied environments, conditions and human settlements. Christchurch is the population centre of the region and South Island and as such has a majority of members on the Regional Council. Despite this it is essential for us as candidates and potential Regional Councillors to learn, observe and understand the environment in areas outside of our residence.",
+    blog_img_boolean: 'true',
+    blog_img_src: '/candidate/src/img/blog/2021-09-04-maukuratawhai.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
 
 
-
-let blog_total = [ blog_9, blog_10, blog_11];
+let blog_total = [ blog_9, blog_10, blog_11, blog_12];
 
 
 let insta_icon = {
