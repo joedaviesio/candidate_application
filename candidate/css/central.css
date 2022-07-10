@@ -52,7 +52,7 @@ a {
 
 @media (max-width: 400px) {
   .prime_header_container .prime_header {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 }
 
@@ -87,7 +87,7 @@ a {
 
 @media (max-width: 400px) {
   .sub_header_container .sub_header {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -409,7 +409,7 @@ a {
 
 @media (max-width: 400px) {
   .third_header_container .third_header {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -454,7 +454,7 @@ a {
 
 @media (max-width: 400px) {
   .button_container .button {
-    font-size: 1.33rem;
+    font-size: 1.4rem;
   }
 }
 
