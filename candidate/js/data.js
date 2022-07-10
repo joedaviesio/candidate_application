@@ -187,7 +187,7 @@ let blog_13 = {
     blog_img_boolean: 'false',
     blog_img_src: '/candidate/src/img/blog/2021-09-04-maukuratawhai.jpg',
     icon_type: blog_icon.type, 
-    icon_title: photo_icon.title,
+    icon_title: blog_icon.title,
     icon_size: blog_icon.size
 }
 
