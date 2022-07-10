@@ -181,9 +181,17 @@ let blog_12 = {
     icon_size: blog_icon.size
 }
 
+let blog_13 = {
+    title: '10 July 21:37',
+    text: "Good weeks campaigning. Had a good afternoon at our campaign headquarters making calls. Spoke to 30 households over 2 and a half hours. Sometimes people who are in the later of stages of life say to me, 'I've got no worries, too old to worry about politics, I just go along with it all.' I think this is an interesting sentiment but one that a young mind may not fully appreciate. One could jump to the position that everyone should care about politics and the effect of our democratic institutions and the laws and regulations that they permeate. This seems a rational position particularly to the ideological political operator. I think a less ideological perspective may give one a greater understanding of this sentiment. Perhaps they've fought and struggled through lifes battles to the ultimate bliss that may await one in laying down ones own political ideology. In a sense ones own significance. Or perhaps they just don't want to talk and this is an easy way to hang up the phone. <br> <i class='fa-solid fa-face-grin-tears'></i>",
+    blog_img_boolean: 'false',
+    blog_img_src: '/candidate/src/img/blog/2021-09-04-maukuratawhai.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-
-let blog_total = [ blog_9, blog_10, blog_11, blog_12];
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13];
 
 
 let insta_icon = {
