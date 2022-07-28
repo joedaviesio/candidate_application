@@ -191,7 +191,17 @@ let blog_13 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13];
+let blog_14 = {
+    title: '28 July 11:59',
+    text: "Campaign has gone into overdrive. Taken on some city wide campaign objectives so Sydenham locals you'll be seeing me a lot over the next three months. I have learnt so much working with people from accross The People's Choice. Their are candidates like Chrys Horn and Craig Pauling who are experts in Canterbury environmental science and planning. They have so much to bring to the governance of the Regional Council. On that note I have to mention Brynlea Stocks our candidate in Central/Ohoko who will bring an entirely new lense to the role as a representative of Gen Z. The grassroots of a political organisation are just like our sports clubs and our environmental volunteer groups. The People's Choice are powered by community activists that work together and share our knowledge and networks. That's why we're such a strong electoral organisation in NZ local government. ",
+    blog_img_boolean: 'true',
+    blog_img_src: '/candidate/src/img/blog/joe_maps.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14];
 
 
 let insta_icon = {
