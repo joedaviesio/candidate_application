@@ -27,7 +27,7 @@ let photos = {
 
 let para = {
 
-    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently self-employed as a digital designer and contractor and live with my girlfriend Louisa. <br> <br> The organisation I represent “The People’s Choice” is a volunteer led organisation that seeks to elect community advocates into local Government governance. I served as the Environment Sector Chair for the New Zealand Labour Party from 2019 - 2021. This introduced me to community activists, environmental planners and scientists from across the country. There is a key theme that is ever present amongst these circles - our changing climate. As a South New Brighton resident when I run down the Avon - I see Bexley returning to the wetland that it once was. I see flocks of black backed gulls dropping mussels on the pegasus coastline. I also see the rain in the garden, the flooding in the streets and the congestion on the roads. <br> <br> In asking for your support in this local election, I stand on a twofold question - <br> <br>  a) How best do we include communities in the decisions that are going to affect their lives in the next short period?<br> <br> b) How can we allow natural non-human species to return to the land?<br> <br> If I’m successfully elected I will base policy decisions on these questions. "
+    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently self-employed as a digital designer and contractor and live with my girlfriend Louisa. <br> <br> The organisation I represent, The People’s Choice, is a volunteer led group that seeks to elect community advocates into local government governance. I served as the Environment Sector Chair for the NZLP from 2019 - 2021. This role connected me to community activists, environmental planners and scientists from across the country; so too often we discussed the same topic at our meetings.  <br> <br> Climate change <br> As a South New Brighton resident, when I run alongside the Ōtākaro Avon river, I see Bexley returning to the wetland that it once was. I see gulls dropping shellfish on the Pegasus coastline. I also see the rain in the gardens, the flooding in the streets and the clogged up roads.  <br> <br> I am asking for your support in this election and I invite you to consider two important questions; <br> <br> a) How best do we include our communities in the decisions that are going to affect our lives in the short term with regard to climate change? <br> <br> b) How can we live more harmoniously with our birds, wetlands and marine life? <br> <br> If I’m successfully elected, I will base policy decisions on these questions."
     
 
 
@@ -201,7 +201,17 @@ let blog_14 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14];
+let blog_15 = {
+    title: '11 August 23:10',
+    text: "It's been an intense couple of weeks with taking on some responsibilities for my organisations campaign. I find the work stimulating, rewarding and I like the people around our campaign. I also feel as though I'm learning about Christchurch; this city that we call home. Tomorrow nominations close; the race begins. Two months after that the campaign will draw to a close and all this work; the conversations, the maps that we've pored over, the letters that we've proofed; will all be a memory. The campaign will be gone, and all that will be left will be those of us victorious; and those of us wounded having been out manouvered in this modern theatre. Which of these I'll be; I couldn't tell you. That would be a 'reckons' that all wise candidates should avoid - but what I do reckon is that I'm starting to think - as the old adage goes, it's about the journey not the destination.",
+    blog_img_boolean: 'false',
+    blog_img_src: '/candidate/src/img/blog/joe_maps.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15];
 
 
 let insta_icon = {
