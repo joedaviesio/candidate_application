@@ -23,8 +23,10 @@
    
 
         .prime_header {
-            font-family: $primaryfont;
-
+            font-family: 'filson-pro', sans-serif;
+            font-weight: 700;
+            
+            font-style: normal;
 
             display: flex;
             align-items: center;
@@ -102,6 +104,8 @@
     padding: 11px;
     background-color: $footercolor;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -546,4 +550,20 @@
 .autho {
     font-family: $primaryfont;
     font-size: 0.8rem;
+}
+
+.bottom_img {
+
+    width: 60px;
+    border: solid 1px rgb(250, 230, 19);
+
+    border-radius: 12px;
+    opacity: 90%;
+ 
+}
+
+.x_footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }

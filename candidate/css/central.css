@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://use.typekit.net/ymd2hhv.css");
 @import url("https://use.typekit.net/gcv6ikt.css");
+@import url("https://use.typekit.net/gcv6ikt.css");
 *,
 ::after,
 ::before {
@@ -42,7 +43,9 @@ a {
 }
 
 .prime_header_container .prime_header {
-  font-family: "hero-new", "Open Sans";
+  font-family: 'filson-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,6 +106,8 @@ a {
   padding: 11px;
   background-color: #d82c20;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .img1_wide {
@@ -489,6 +494,19 @@ a {
 .autho {
   font-family: "hero-new", "Open Sans";
   font-size: 0.8rem;
+}
+
+.bottom_img {
+  width: 60px;
+  border: solid 1px #fae613;
+  border-radius: 12px;
+  opacity: 90%;
+}
+
+.x_footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .pricing_body {
