@@ -203,7 +203,7 @@ let blog_14 = {
 
 let blog_15 = {
     title: '11 August 23:10',
-    text: "It's been a busy couple of weeks with taking on some responsibilities for my organisations campaign. I find the work stimulating, rewarding and I like the people around our campaign. I also feel as though I'm learning about Christchurch and our communities. Tomorrow nominations close and the race begins. Two months after that the campaign will draw to a close and all this work; the conversations, the maps, the letters that we've proofed, the hoardings put up; will all be a memory. The campaign will be gone, and all that will be left will be the next stages of this experience whether victorious or not. As the old adage goes, it's about the journey not the destination.",
+    text: "It's been a busy couple of weeks with taking on some responsibilities for my organisations campaign. I find the work rewarding and I like the people around our campaign. I also feel as though I'm learning about Christchurch and our communities. Tomorrow nominations close and the race begins. Two months after that the campaign will draw to a close and all this work; the conversations, the maps, the letters that we've proofed, the hoardings put up; will all be a memory. The campaign will be gone, and all that will be left will be the next stages of this experience whether victorious or not. As the old adage goes, it's about the journey not the destination.",
     blog_img_boolean: 'false',
     blog_img_src: '/candidate/src/img/blog/joe_maps.jpg',
     icon_type: blog_icon.type, 
@@ -211,7 +211,17 @@ let blog_15 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15];
+let blog_16 = {
+    title: '16 August 10:09',
+    text: "Spent the afternoon out in Hei Hei on Sunday. It was a sunny day and a suburb I don't think I've visted before. I walked past some flats to get to Wycola park there was a gentleman sitting on his deck singing old time classics alongside his crackly radio. On arrival Minister Megan Woods, local Wigram MP introduced our Hornby ticket (Kim Moss, Henk Buunk and Craig Pauling) surrounded by our candidates and families. Kim Moss then announced our living streets policy; a ccc policy to invest in pocket parks and the greening of urban streets. For more info <a href='https://www.stuff.co.nz/the-press/news/129572245/labour-mp-megan-woods-helps-local-body-politicians-launch-new-policy'> click here to be taken to the stuff story.</a> ",
+    blog_img_boolean: 'false',
+    blog_img_src: '/candidate/src/img/blog/joe_maps.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16];
 
 
 let insta_icon = {
