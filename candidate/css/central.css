@@ -44,7 +44,6 @@ a {
 
 .prime_header_container .prime_header {
   font-family: 'filson-pro', sans-serif;
-  font-weight: 700;
   font-style: normal;
   display: flex;
   align-items: center;
@@ -107,7 +106,7 @@ a {
   background-color: #d82c20;
   z-index: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .img1_wide {
