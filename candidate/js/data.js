@@ -221,7 +221,17 @@ let blog_16 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16];
+let blog_17 = {
+    title: '24 August 16:40',
+    text: "People are reading this blog - which is a funny feeling. For those who've reached out to me to engage in a political discussion (not always of the same beliefs) thank you. It means alot that you would read what I've written and feedback your interpretations. On that note you're all welcome to the New Brighton Mall this Saturday at 1200, for The People's Choice policy statement that I will be making alongside current North East Ōrei Christchurch Regional Councillor Jenny Hughey - gonna be fun. You can check out a live stream via my fb too. (Check socials in the burger menu). ",
+    blog_img_boolean: 'true',
+    blog_img_src: '/candidate/src/img/bio/digital_democracy_proper_new-01.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17];
 
 
 let insta_icon = {
