@@ -47,15 +47,15 @@ let list_icon = {
 }
 
 let list_1 = {
-    title: 'Water.',
-    text: 'For safe drinking water and swimmable rivers.',
+    title: 'Freshwater action and biodiversity.',
+    text: 'Increased funding for biodiversity projects across Canterbury. Planting wetlands on the edges of waterways to filter nutrients and run off from agricultural land.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 let list_2 = {
     title: 'Transport.',
-    text: 'For low fares, accessible routes and a commitment to a mass rapid transit system for greater Christchurch and Canterbury.',
+    text: 'For low fares, accessible routes and a commitment to a mass rapid transit system; including rail, for greater Christchurch and Canterbury.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
@@ -70,15 +70,15 @@ let list_3 = {
 }
 
 let list_4 = {
-    title: 'Democracy.',
-    text: 'For public and digital access to regional council meetings.',
+    title: 'Digital Democracy.',
+    text: 'Standardized digital access accross City and Regional Council meetings.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 let list_5 = {
-    title: 'Climate change.',
-    text: 'To build climate resilience in Canterbury.',
+    title: 'Climate resilience.',
+    text: 'Connecting the community into emergency planning, giving residents associations access to resources and building infrastructure that is adaptive to dryer and wetter conditions.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
@@ -92,7 +92,7 @@ let list_6 = {
     icon_size: list_icon.size
 }
 
-let list_total = [list_1, list_2, list_3, list_4, list_5, list_6];
+let list_total = [list_5, list_1, list_2, list_4, list_6];
 
 console.log(list_total[0]);
 
