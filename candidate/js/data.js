@@ -78,7 +78,7 @@ let list_4 = {
 }
 let list_5 = {
     title: 'Climate resilience.',
-    text: 'Connecting the community into emergency planning, giving residents associations access to resources and building infrastructure that is adaptive to dryer and wetter conditions.',
+    text: 'Connecting community groups into emergency planning, giving them access to resources and building infrastructure that is adaptive to dryer and wetter conditions.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
