@@ -9,6 +9,7 @@ let comp04 = document.getElementById('comp04');
 let comp05 = document.getElementById('comp05');
 let comp06 = document.getElementById('comp06');
 let comp07 = document.getElementById('comp07');
+let comp08 = document.getElementById('comp08');
 let button_comp = document.getElementById('button_comp');
 let footer_comp = document.getElementById('footer_comp');
 
@@ -124,7 +125,7 @@ comp.append(img1_wide);
 img1.src = popo;
 }
 img1_total(comp05, photos.intro);
-img1_total(comp07, photos.landing);
+img1_total(comp08, photos.landing);
 // img1_total(comp06, photos.landing);
 
 // text
