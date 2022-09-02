@@ -35,7 +35,7 @@ function sub0_display(){
     comp04.innerHTML = '';
     comp05.innerHTML = '';
     comp06.innerHTML = '';
-    comp07.innerHTML = '';
+    comp08.innerHTML = '';
     img1_total(comp04, photos.bio_01);
     text_total(comp05, para.bio);
     img1_total(comp06, photos.bio_02);
@@ -60,7 +60,7 @@ function sub1_display(){
     comp04.innerHTML = '';
     comp05.innerHTML = '';
     comp06.innerHTML = '';
-    comp07.innerHTML = '';
+    comp08.innerHTML = '';
 
     console.log('hello world');
     comp04.append(list_wide); 
@@ -88,7 +88,7 @@ function sub2_display(){
     comp04.innerHTML = '';
     comp05.innerHTML = '';
     comp06.innerHTML = '';
-    comp07.innerHTML = '';
+    comp08.innerHTML = '';
     input_container.style.display = 'none';
  
     console.log('hello world');
@@ -111,7 +111,7 @@ function socials_display(){
     comp04.innerHTML = '';
     comp05.innerHTML = '';
     comp06.innerHTML = '';
-    comp07.innerHTML = '';
+    comp08.innerHTML = '';
     input_container.style.display = 'none';
     comp05.append(socials_wide);
     if (dropdown_container_wide.classList.contains('modalon')) {
@@ -130,7 +130,7 @@ function contact_display(){
     comp04.innerHTML = '';
     comp05.innerHTML = '';
     comp06.innerHTML = '';
-    comp07.innerHTML = '';
+    comp08.innerHTML = '';
 
     input_container.style.display = 'flex';
     sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
