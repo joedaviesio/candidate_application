@@ -22,12 +22,15 @@ let button_icon = {
 let photos = {
     landing: '/candidate/src/img/bio/joe_cand.JPG',
     bio_01: '/candidate/src/img/bio/bio_snap.png',
-    bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG'
+    bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
+    intro: 'candidate/src/img/bio/2021-10-08-Otira-scree-b.JPG'
 }
 
 let para = {
 
-    bio: "My name is Joe Davies and I'm standing for the North East / Ōrei constituency for the Canterbury Regional Council. I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently a self-employed designer and contractor and live with my girlfriend Louisa. <br> <br> The organisation I represent, The People’s Choice, is a volunteer led group that seeks to elect community advocates into local government governance. I served as the Environment Sector Chair for the NZLP from 2019 - 2021. This role connected me to community activists, environmental planners and scientists from across the country; so too often we discussed the same topic at our meetings.  <br> <br> Climate change <br> As a South New Brighton resident, when I run alongside the Ōtākaro Avon river, I see Bexley returning to the wetland that it once was. I see gulls dropping shellfish on the Pegasus coastline. I also see the rain in the gardens, the flooding in the streets and the clogged up roads.  <br> <br> I am asking for your support in this election and I invite you to consider two important questions; <br> <br> a) How best do we include our communities in the decisions that are going to affect our lives in the short term with regard to climate change? <br> <br> b) How can we live more harmoniously with our birds, wetlands and marine life? <br> <br> If I’m successfully elected, I will base policy decisions on these questions."
+    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently a self-employed designer and contractor and live with my girlfriend Louisa. <br> <br> The organisation I represent, The People’s Choice, is a volunteer led group that seeks to elect community advocates into local government governance. I served as the Environment Sector Chair for the NZLP from 2019 - 2021. This role connected me to community activists, environmental planners and scientists from across the country; so too often we discussed the same topic at our meetings.<br> <br> Climate change <br> As a South New Brighton resident, when I run alongside the Ōtākaro Avon river, I see Bexley returning to the wetland that it once was. I see gulls dropping shellfish on the Pegasus coastline. I also see the rain in the gardens, the flooding in the streets and the clogged up roads.  <br> <br> I am asking for your support in this election and I invite you to consider two important questions; <br> <br> a) How best do we include our communities in the decisions that are going to affect our lives in the short term with regard to climate change? <br> <br> b) How can we live more harmoniously with our birds, wetlands and marine life? <br> <br> If I’m successfully elected, I will base policy decisions on these questions.",
+
+    bio_x: " Welcome to my website. My name is Joe Davies and I'm standing for the North East / Ōrei constituency for the Canterbury Regional Council."
     
 
 
@@ -55,7 +58,7 @@ let list_1 = {
 }
 let list_2 = {
     title: 'Transport.',
-    text: 'For low fares, accessible routes and a commitment to a mass rapid transit system; including rail, for greater Christchurch and Canterbury.',
+    text: 'Low fares, accessible routes and a commitment to a mass rapid transit system; including rail, for greater Christchurch and Canterbury.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
@@ -71,14 +74,14 @@ let list_3 = {
 
 let list_4 = {
     title: 'Digital democracy.',
-    text: 'Standardized digital access across City and Regional Council meetings.',
+    text: 'Standardised digital access across City and Regional Council meetings.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
 }
 let list_5 = {
     title: 'Climate resilience.',
-    text: 'Connecting community groups into emergency planning, giving them access to resources and building infrastructure that is adaptive to dryer and wetter conditions.',
+    text: 'Connecting community groups into emergency planning, giving them access to resources and building infrastructure that is adaptive to drier and wetter conditions.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
