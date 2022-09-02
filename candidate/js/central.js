@@ -123,7 +123,8 @@ comp.append(img1_wide);
 
 img1.src = popo;
 }
-img1_total(comp05, photos.landing);
+img1_total(comp05, photos.intro);
+img1_total(comp07, photos.landing);
 // img1_total(comp06, photos.landing);
 
 // text
@@ -138,7 +139,7 @@ text_container.append(text);
 comp.append(text_container);
 
 }
-// text_total(comp05, para.bio);
+text_total(comp05, para.bio_x);
 
 
 // dropdown
