@@ -230,7 +230,7 @@ let blog_18 = {
     blog_img_boolean: 'true',
     blog_img_src: '/candidate/src/img/bio/campaign.jpg',
     icon_type: blog_icon.type, 
-    icon_title: blog_icon.title,
+    icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
 
@@ -240,11 +240,21 @@ let blog_17 = {
     blog_img_boolean: 'true',
     blog_img_src: '/candidate/src/img/bio/digital_democracy_proper_new-01.jpg',
     icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_19 = {
+    title: '06 September 12:02',
+    text: "Campaign; part one. (view <a href='https://fb.watch/fmhluTlqae/'>HERE)</a>",
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/blog/camo.png',
+    icon_type: blog_icon.type, 
     icon_title: blog_icon.title,
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18];
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19];
 
 
 let insta_icon = {
