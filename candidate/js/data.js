@@ -254,7 +254,17 @@ let blog_19 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19];
+let blog_20 = {
+    title: '18 September 10:20',
+    text: "Big week out in the field just been; Sunday now and I'm having the chance to update digital aspects of the campaign. I had a dear friend and volunteer spend 6 hours out yesterday, delivering 1400 leaflets. A remarkable feat that I express my deep gratitude to him for. I was portside in Lyttelton canvassing on behalf of our Banks Peninsula campaign alongside Dan Rosewarn MP. People were positive about Lyttelton; some of this translated into an engagement with their local government; some into feelings towards Labour. Of course each individual has a unique political persuasion but in Lyttelton more than most places I've campaigned this cycle; the residents seem to know their Community Board members like Reuben Davidson on a first name basis. However it must be noted that for many; the Regional Council election was not on their horizon. A trend accross Christchurch. ",
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/blog/camo.png',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20];
 
 
 let insta_icon = {
