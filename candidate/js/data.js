@@ -264,7 +264,17 @@ let blog_20 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20];
+let blog_21 = {
+    title: '30 September 21:54',
+    text: "We're into the final days of the campaign. I've been doorknocking across Burwood and Coastal over the last week. We're also big on the calls at the moment in the phase we call 'get out the vote'. One final push and in a weeks time we'll be at election days eve. People often ask me if I'm confident or have a feeling of the outcome. I honestly think it could go either way, win or lose; and this is due to three major factors a) the community literacy around ECan b) the size of the constituency and c) the profile of the candidates in my race. It's an unknown quantity and as such I will go into next Saturday preparing for a loss because from my experience in life having lower expectations makes the less desired outcome easier to process. 'Expect the worst, hope for the best' is the saying that springs to mind.",
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/blog/camo.png',
+    icon_type: blog_icon.type, 
+    icon_title: blog_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21];
 
 
 let insta_icon = {
