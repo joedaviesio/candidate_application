@@ -274,7 +274,18 @@ let blog_21 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21];
+
+let blog_22 = {
+    title: '06 October 12:00',
+    text: "48 hours to go; made 200 calls yesterday; we had about 1200 over the day going into the North East Constituency from the likes of Alexander Hewison for Coastal Community Board and Liam, volunteer extraordinaire. Many thanks to them. Also a happy birthday to my father, Tom Davies, Hurunui District Councilor. Went for a run in the hills yesterday and looked down on the spit moving up Pegasus Bay towards the snow covered Mt Grey and the Alps beyond. Turn 180 degrees and this photo is of the Monument, the prominent peak to the east of Mt Herbert, the Peninsulas tallest summit. It was very still up there and there were few people out; a cyclist and a car or two on Summit Rd.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/monument.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22];
 
 
 let insta_icon = {
