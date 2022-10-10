@@ -28,9 +28,9 @@ let photos = {
 
 let para = {
 
-    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently a self-employed designer and contractor and live with my girlfriend Louisa. <br> <br> The organisation I represent, The People’s Choice, is a volunteer led group that seeks to elect community advocates into local government governance. I served as the Environment Sector Chair for the NZLP from 2019 - 2021. This role connected me to community activists, environmental planners and scientists from across the country; so too often we discussed the same topic at our meetings.<br> <br> Climate change <br> As a South New Brighton resident, when I run alongside the Ōtākaro Avon river, I see Bexley returning to the wetland that it once was. I see gulls dropping shellfish on the Pegasus coastline. I also see the rain in the gardens, the flooding in the streets and the clogged up roads.  <br> <br> I am asking for your support in this election and I invite you to consider two important questions; <br> <br> a) How best do we include our communities in the decisions that are going to affect our lives in the short term with regard to climate change? <br> <br> b) How can we live more harmoniously with our birds, wetlands and marine life? <br> <br> If I’m successfully elected, I will base policy decisions on these questions.",
+    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently a self-employed designer and contractor and live with my girlfriend Lovisa. <br> <br> The organisation I represent, The People’s Choice, is a volunteer led group that seeks to elect community advocates into local government governance. I served as the Environment Sector Chair for the NZLP from 2019 - 2021. This role connected me to community activists, environmental planners and scientists from across the country; so too often we discussed the same topic at our meetings.<br> <br> Climate change <br> As an eastern resident, when I run alongside the Ōtākaro Avon river, I see Bexley returning to the wetland that it once was. I see gulls dropping shellfish on the Pegasus coastline. I also see the rain in the gardens, the flooding in the streets and the clogged up roads.  <br> <br> I am asking for your support in this election and I invite you to consider two important questions; <br> <br> a) How best do we include our communities in the decisions that are going to affect our lives in the short term with regard to climate change? <br> <br> b) How can we live more harmoniously with our birds, wetlands and marine life? <br> <br> These are what I base my policy decisions on at the Regional Council. ",
 
-    bio_x: " Welcome to my website. My name is Joe Davies and I'm standing for the North East / Ōrei constituency for the Canterbury Regional Council."
+    bio_x: "Welcome to my website. My name is Joe Davies and I'm a Councillor elect for the North East Christchurch / Ōrei constituency on the Canterbury Regional Council."
     
 
 
@@ -285,7 +285,19 @@ let blog_22 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22];
+let blog_23 = {
+    title: '10 October 10:44',
+    text: "FB STATEMENT; 'Progress results are in and it looks like we’ve met our campaign objective. To the 9095 people who voted for me it is a great honour and I look forward to representing our northern and eastern Christchurch communities on the Canterbury Regional Council. To the other candidates, well done on running a hard fought campaign. I’d like to pay tribute to Lovisa, my parents, my family, friends, volunteers and my party; I couldn’t have done it without you. Onwards!'<br> <br> Preliminary results now have my number of electors at 9,811.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/we_won.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23];
 
 
 let insta_icon = {
