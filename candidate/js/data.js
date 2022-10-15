@@ -28,9 +28,9 @@ let photos = {
 
 let para = {
 
-    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently a self-employed designer and contractor and live with my girlfriend Lovisa. <br> <br> The organisation I represent, The People’s Choice, is a volunteer led group that seeks to elect community advocates into local government governance. I served as the Environment Sector Chair for the NZLP from 2019 - 2021. This role connected me to community activists, environmental planners and scientists from across the country; so too often we discussed the same topic at our meetings.<br> <br> Climate change <br> As an eastern resident, when I run alongside the Ōtākaro Avon river, I see Bexley returning to the wetland that it once was. I see gulls dropping shellfish on the Pegasus coastline. I also see the rain in the gardens, the flooding in the streets and the clogged up roads.  <br> <br> I am asking for your support in this election and I invite you to consider two important questions; <br> <br> a) How best do we include our communities in the decisions that are going to affect our lives in the short term with regard to climate change? <br> <br> b) How can we live more harmoniously with our birds, wetlands and marine life? <br> <br> These are what I base my policy decisions on at the Regional Council. ",
+    bio: "I was born in England and moved to Christchurch with my parents. I attended Mt Pleasant Primary school and then Linwood College where I was head boy through the 2011 earthquakes. I have served as a Community Board member at the CCC and have gone on to gain qualifications in health sciences and technology. I am currently a self-employed designer and contractor and live with my girlfriend Lovisa. <br> <br> The organisation I represent, The People’s Choice, is a volunteer led group that seeks to elect community advocates into local government governance. I served as the Environment Sector Chair for the NZLP from 2019 - 2021. This role connected me to community activists, environmental planners and scientists from across the country; so too often we discussed the same topic at our meetings.<br> <br> Climate change <br> As an eastern resident, when I run alongside the Ōtākaro Avon river, I see Bexley returning to the wetland that it once was. I see gulls dropping shellfish on the Pegasus coastline. I also see the rain in the gardens, the flooding in the streets and the clogged up roads.  <br> <br> I succesfully stood at the 2022 Local Government election on my policy platform and the two following questions;<br> <br> a) How best do we include our communities in the decisions that are going to affect our lives in the short term with regard to climate change? <br> <br> b) How can we live more harmoniously with our birds, wetlands and marine life? <br> <br> These are what I base my policy decisions on at the Regional Council. ",
 
-    bio_x: "Welcome to my website. My name is Joe Davies and I'm a Councillor elect for the North East Christchurch / Ōrei constituency on the Canterbury Regional Council."
+    bio_x: "Welcome to my website. My name is Joe Davies; I'm a Councillor for the North East Christchurch / Ōrei constituency on the Canterbury Regional Council."
     
 
 
@@ -150,7 +150,7 @@ let blog_7 = {
 
 let blog_9 = {
     title: '10 June 09:07',
-    text: 'I have just launched my campaign website. I will update it along the campaign but I would also reccomend checking out my facebook to follow my campaign via social media. <a href="https://www.facebook.com/joedaviesforecan">Click here for a link to my profile.</a> ',
+    text: 'I have just launched my campaign website. I will update it along the campaign but I would also reccomend checking out my facebook to follow my campaign via social media. <a href="https://www.facebook.com/councillorjoedavies">Click here for a link to my profile.</a> ',
     blog_img_boolean: 'false',
     icon_type: blog_icon.type, 
     icon_title: blog_icon.title,
@@ -323,7 +323,7 @@ let socials_1 = {
 }
 
 let socials_2 = {
-    href: "https://www.facebook.com/joedaviesforecan",
+    href: "https://www.facebook.com/councillorjoedavies",
 
     icon_type: fb_icon.type, 
     icon_title: fb_icon.title,
