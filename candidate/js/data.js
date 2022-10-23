@@ -23,7 +23,7 @@ let photos = {
     landing: '/candidate/src/img/bio/joe_cand.JPG',
     bio_01: '/candidate/src/img/bio/bio_snap.jpg',
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
-    intro: 'candidate/src/img/bio/2021-04-22-painting-concept.JPG'
+    intro: 'candidate/src/img/bio/swamp.JPG'
 }
 
 let para = {
@@ -295,14 +295,24 @@ let blog_23 = {
     icon_size: blog_icon.size
 }
 
+let blog_24 = {
+    title: '24 October 10:18',
+    text: "Tramped up Foggy Peak; it was windy and I was tempted to make a 90 minute pitch at Avalanche Peak accross the Torlesse Ridgeline but one of my boots soles was coming away from the shoe so I turned back at 1741m to the party I was with. They hadn't made it much past 1200m with innapropriate shoewear. Afterwards we visited Lake Lyndon and were transported back in time to that Kiwiana Canterbury that still exists outside of the urban centres. The wind, the dry soil, the craggy rock, the sun screen, the rattling grass, the choppy water. You can see the full photo album on my Facebook Profile.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/lyndon.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24];
 
 
 let insta_icon = {
     type: 'fa-brands',
-    title: 'fa-instagram',
+    title: 'fa-twitter',
     size: 'fa-3x'
 
 }
@@ -315,7 +325,7 @@ let fb_icon = {
 }
 
 let socials_1 = {
-    href: "https://www.instagram.com",
+    href: "https://twitter.com/cllrjoedavies",
 
     icon_type: insta_icon.type, 
     icon_title: insta_icon.title,
@@ -330,7 +340,7 @@ let socials_2 = {
     icon_size: fb_icon.size
 }
 
-let socials_total = [socials_2];
+let socials_total = [socials_1, socials_2];
 
 let video_list = {
     techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/C-SFjuHTwWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
