@@ -297,7 +297,7 @@ let blog_23 = {
 
 let blog_24 = {
     title: '24 October 10:18',
-    text: "Tramped up Foggy Peak; it was windy and I was tempted to make a 90 minute pitch at Avalanche Peak accross the Torlesse Ridgeline but one of my boots soles was coming away from the shoe so I turned back at 1741m to the party I was with. They hadn't made it much past 1200m with innapropriate shoewear. Afterwards we visited Lake Lyndon and were transported back in time to that Kiwiana Canterbury that still exists outside of the urban centres. The wind, the dry soil, the craggy rock, the sun screen, the rattling grass, the choppy water. You can see the full photo album on my Facebook Profile.",
+    text: "Tramped up Foggy Peak; it was windy and I was tempted to make a 90 minute pitch at Avalanche Peak accross the Torlesse Ridgeline but one of my boots soles was coming away from the shoe so I turned back at 1741m to the party I was with. They hadn't made it much past 1200m with innapropriate shoewear. Afterwards we visited Lake Lyndon and were transported back in time to that Kiwiana Canterbury that still exists outside of the urban centres. The wind, the dry soil, the craggy rock, the sun screen, the rattling grass, the choppy water.",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/lyndon.JPG',
     icon_type: blog_icon.type, 
@@ -305,9 +305,19 @@ let blog_24 = {
     icon_size: blog_icon.size
 }
 
+let blog_25 = {
+    title: '28 October 08:58',
+    text: 'Craig Pauling. <br> <br><a href="https://craigpauling.com/">craigpauling.com<i class="fa-solid fa-hand-sparkles"></i></a>',
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/craig_speech.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25];
 
 
 let insta_icon = {
