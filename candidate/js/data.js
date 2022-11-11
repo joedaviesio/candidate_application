@@ -315,9 +315,19 @@ let blog_25 = {
     icon_size: blog_icon.size
 }
 
+let blog_26 = {
+    title: '11 November 18:43',
+    text: "Got back yesterday from our Ōnuku Marae stay with the Regional Council and our executive leadership team. Ōnuku and the area in its proximity is of significant historical importance as the first place in the South Island where the Treaty of Waitangi was signed and also where in 1998 PM Jenny Shipley apologised to Ngāi Tahu on behalf of the Crown. This was one of the final settlement stages of Te Kerēme; the Ngāi Tahu claim.<br><br> We also went and visited Takapūneke Reserve, between Ōnuku and Akaroa with Pou Tū te Raki o Te Maiharanui recently erected in memory of another nationally significant historical event. Photo below is of Councillor Iaen Cranwell and I at this site. <br><br> In 1830 the 12 man brig, Elizabeth, anchored off the Ngāi Tahu flax-trading settlement of Takapūneke. Elizabeth; flying the British flag and captained by John Stewart, concealed Te Rauparaha and a Ngāti Toa war party on a vengeance mission against Ngāi Tahu. Captain Stewart enticed the Ngāi Tahu Ariki Te Maiharanui aboard the boat with his daughter and later other relatives where they were ambushed and shackled below deck. When night came the Ngāti Toa musketeers landed at Takapūneke and brutally sacked the settlement and butchered and captured the remaining inhabitants.<br><br>John Stewart kept Te Maiharanui in irons on the Elizabeth at Kapiti for weeks until Te Rauparaha delivered the cargo of flax as per their deal. Te Maiharanui was then handed over and ceremoniously tortured to death by the wives and widows of Ngāti Toa chiefs near Ōtaki.<br><br>'The Elizabeth affair was a violent intervention, under the British flag, in a Maori tribal war” and resulted in the Governor of New South Wales, Ralph Darling, appointing James Busby as the inaugural British Resident in New Zealand. The Christchurch City Council's management plan for Takapūneke Reserve states that “Takapūneke is historically significant because there is a direct sequence of events at Takapūneke in 1830 and the acquisition of sovereignty over New Zealand by the British Government in 1840.'<br><br>Akaroa County Council erected a sewerage treatment plant in 1960 at Takapūneke. The Christchurch City Council (the successor to the Akaroa County Council) acknowledges that this was an “act of particular cultural insensitivity”. It will continue to discharge treated wastewater at the site until the Council consents and builds the new Akaroa wastewater scheme.<br><br>Sources<br><br><a href='https://www.facebook.com/councillorjoedavies/posts/pfbid0ZEHe4gnEVfNs7zF4VGx5AwANPs3uebfMwXmy6eyDEq21X8dMdYDAdLSbcdKzXiHKl?notif_id=1668138376493627&notif_t=page_post_reaction&ref=notif'><i class='fa-solid fa-hand-sparkles'></i></a>",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/iaean_joe.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26];
 
 
 let insta_icon = {
