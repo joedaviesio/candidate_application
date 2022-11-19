@@ -325,9 +325,18 @@ let blog_26 = {
     icon_size: blog_icon.size
 }
 
+let blog_27 = {
+    title: '19 November 17:23',
+    text: 'Hope everyone is doing okay re the rain fall in Chch. Up in the Hurunui where it’s wet but less rain than the plains for sure. This morning I attended 125th anniversary celebrations for Hanmer Primary School where Tom cut the ribbon for a new sports turf and the youngest pupil at the school and the oldest former pupil in hanmer (attended in the 1940s) uncovered a bench built by the local mens shed. Great turnout too.',
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/tom_joe.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26];
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27];
 
 
 let insta_icon = {
