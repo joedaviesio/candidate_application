@@ -335,8 +335,18 @@ let blog_27 = {
     icon_size: blog_icon.size
 }
 
+let blog_28 = {
+    title: '12 December 09:52',
+    text: 'Sometimes politics can be quite surreal. At the last minute I recieved an invitation from Councillor Celeste Donovan of Coastal to attend the New Brighton Santa Parade so I showed up on Marine Parade 1015 Saturday, looking for Celeste whom I assumed that I would be walking with. I heard the honk of a strange vehicle and Mayor Phil Mauger with Celeste and Community Board Member Jo Zervos sitting in the back, appeared towards the front of the parade in a 100 year old Fiat. "Hop in," they said and passed me a Santa hat. We proceeded to drive past what must have been over 1000 people, smiling and waving in the Brighton Summer Christmas vibe.',
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/phil.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28];
 
 
 let insta_icon = {
