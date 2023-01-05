@@ -347,7 +347,7 @@ let blog_28 = {
 
 let blog_29 = {
     title: '05 January 14:44',
-    text: "Poem from Tasman trip <br> Day one<br>When all that’s left is the patch of a tent, the wind chimes and a panting dog.<br>Day two<br> Ocean kiss and bass up the hills.<br>Day three<br>Takaka market, the sun is shining and David T takes a bow. <br>Day four<br>Tasman coastline, Kahurangi petrol head of the Anatori, the lighthouse marks the border with Buller District. <br> Day five<br>Tidal swimming, cliffs create a metronomy of access; the Mussel Inn, the farewell and into; swallowed into the night like the flies into the headlights. <br><br>Photo Album<br><br><a href='https://www.facebook.com/councillorjoedavies'><i class='fa-solid fa-hand-sparkles'></i></a>",
+    text: "Poem from Tasman trip <br> Day one<br>When all that’s left is the patch of a tent, the wind chimes and a panting dog.<br>Day two<br> Ocean salutation and bass up the hills.<br>Day three<br>Takaka market, the sun is shining and David T takes a bow. <br>Day four<br>Tasman coastline, Kahurangi petrol head of the Anatori, the lighthouse marks the border with Buller District. <br> Day five<br>Tidal swimming, cliffs create a metronomy of access; the Mussel Inn, the farewell and into; swallowed into the night like the flies into the headlights. <br><br>Photo Album<br><br><a href='https://www.facebook.com/councillorjoedavies'><i class='fa-solid fa-hand-sparkles'></i></a>",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/joe_seal.JPG',
     icon_type: blog_icon.type, 
