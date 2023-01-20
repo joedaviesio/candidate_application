@@ -355,7 +355,18 @@ let blog_29 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29];
+let blog_30 = {
+    title: '20 January 22:18',
+    text: "Fulfilling tramp and experience from Klondyke Corner up through Carrington and onto Barker Hut. Canterbury and Arthurs Pass never cease to amaze. A truly rugged environment shaped by the elements and the hardy life up there. <br><br>Photo Album<br><br><a href='https://www.facebook.com/councillorjoedavies/posts/pfbid0YURbe5sCNKLN3zwWL9RrqwjEE7QYnBUZoaLAZ5s9Bjn4RXgoreKskjxTaYSuer8cl?notif_id=1674207027528080&notif_t=page_post_reaction&ref=notif'><i class='fa-solid fa-hand-sparkles'></i></a>",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/murchison.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30];
 
 
 let insta_icon = {
