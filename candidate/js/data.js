@@ -356,7 +356,7 @@ let blog_29 = {
 }
 
 let blog_30 = {
-    title: '27 January 10:49',
+    title: '20 January 10:49',
     text: "Tramp and experience from Klondyke Corner up through Carrington and onto Barker Hut. Canterbury and Arthurs Pass. A rugged environment shaped by the elements and the hardy life up there. <br><br>Photo Album<br><br><a href='https://www.facebook.com/councillorjoedavies/posts/pfbid0YURbe5sCNKLN3zwWL9RrqwjEE7QYnBUZoaLAZ5s9Bjn4RXgoreKskjxTaYSuer8cl?notif_id=1674207027528080&notif_t=page_post_reaction&ref=notif'><i class='fa-solid fa-hand-sparkles'></i></a>",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/murchison.JPG',
@@ -365,8 +365,18 @@ let blog_30 = {
     icon_size: blog_icon.size
 }
 
+let blog_31 = {
+    title: '27 January 11:00',
+    text: "I sent another email to Chair and Deputy of Transport Committee re my concerns over information supply to public transport users. Seems to have a prevalence in the Coastal area, 'ghost buses' and cancellations leaving residents confused and often having to get taxi's / ubers home. This is not the way to increase patronage. People are understanding that 8% of the buses aren't running due to Driver retention/shortage; but should be a basic provision that clear digital information is available on apps and website. ",
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/murchison.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31];
 
 
 let insta_icon = {
