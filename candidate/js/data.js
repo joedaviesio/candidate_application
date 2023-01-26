@@ -356,8 +356,8 @@ let blog_29 = {
 }
 
 let blog_30 = {
-    title: '20 January 22:18',
-    text: "Fulfilling tramp and experience from Klondyke Corner up through Carrington and onto Barker Hut. Canterbury and Arthurs Pass never cease to amaze. A truly rugged environment shaped by the elements and the hardy life up there. <br><br>Photo Album<br><br><a href='https://www.facebook.com/councillorjoedavies/posts/pfbid0YURbe5sCNKLN3zwWL9RrqwjEE7QYnBUZoaLAZ5s9Bjn4RXgoreKskjxTaYSuer8cl?notif_id=1674207027528080&notif_t=page_post_reaction&ref=notif'><i class='fa-solid fa-hand-sparkles'></i></a>",
+    title: '27 January 10:49',
+    text: "Tramp and experience from Klondyke Corner up through Carrington and onto Barker Hut. Canterbury and Arthurs Pass. A rugged environment shaped by the elements and the hardy life up there. <br><br>Photo Album<br><br><a href='https://www.facebook.com/councillorjoedavies/posts/pfbid0YURbe5sCNKLN3zwWL9RrqwjEE7QYnBUZoaLAZ5s9Bjn4RXgoreKskjxTaYSuer8cl?notif_id=1674207027528080&notif_t=page_post_reaction&ref=notif'><i class='fa-solid fa-hand-sparkles'></i></a>",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/murchison.JPG',
     icon_type: blog_icon.type, 
