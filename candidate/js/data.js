@@ -379,9 +379,9 @@ let blog_31 = {
 let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31];
 
 
-let insta_icon = {
+let youtube_icon = {
     type: 'fa-brands',
-    title: 'fa-twitter',
+    title: 'fa-youtube',
     size: 'fa-3x'
 
 }
@@ -392,16 +392,30 @@ let fb_icon = {
     size: 'fa-3x'
 
 }
+let spotify_icon = {
 
-let socials_1 = {
-    href: "https://twitter.com/cllrjoedavies",
+    type: 'fa-brands',
+    title: 'fa-spotify',
+    size: 'fa-3x'
 
-    icon_type: insta_icon.type, 
-    icon_title: insta_icon.title,
-    icon_size: insta_icon.size
+}
+let soundcloud_icon = {
+
+    type: 'fa-brands',
+    title: 'fa-soundcloud',
+    size: 'fa-3x'
+
 }
 
-let socials_2 = {
+let tiktok_icon = {
+
+    type: 'fa-brands',
+    title: 'fa-tiktok',
+    size: 'fa-3x'
+
+}
+
+let socials_1 = {
     href: "https://www.facebook.com/councillorjoedavies",
 
     icon_type: fb_icon.type, 
@@ -409,7 +423,47 @@ let socials_2 = {
     icon_size: fb_icon.size
 }
 
-let socials_total = [socials_1, socials_2];
+let socials_2 = {
+    href: "https://www.youtube.com/channel/UCIOaxt6IOHVMJ5b88PIw3KQ",
+
+    icon_type: youtube_icon.type, 
+    icon_title: youtube_icon.title,
+    icon_size: youtube_icon.size
+}
+
+let socials_3 = {
+    href: "https://open.spotify.com/artist/4Dil1UyTrsYqGsV7v4lGSu",
+
+    icon_type: youtube_icon.type, 
+    icon_title: spotify_icon.title,
+    icon_size: youtube_icon.size
+}
+
+let socials_4 = {
+    href: "https://soundcloud.com/pasadenablanca/joe-davies-feasta-201018",
+
+    icon_type: youtube_icon.type, 
+    icon_title: soundcloud_icon.title,
+    icon_size: youtube_icon.size
+}
+
+let socials_5 = {
+    href: "https://www.instagram.com/pasadena.blanca/",
+
+    icon_type: youtube_icon.type, 
+    icon_title: 'fa-instagram',
+    icon_size: youtube_icon.size
+}
+
+let socials_6 = {
+    href: "https://www.tiktok.com/@joedaviesio",
+
+    icon_type: youtube_icon.type, 
+    icon_title: 'fa-tiktok',
+    icon_size: youtube_icon.size
+}
+
+let socials_total = [socials_2, socials_3,socials_5, socials_6, socials_1];
 
 let video_list = {
     techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/C-SFjuHTwWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
