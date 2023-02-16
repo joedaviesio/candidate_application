@@ -375,8 +375,18 @@ let blog_31 = {
     icon_size: blog_icon.size
 }
 
+let blog_32 = {
+    title: '16 February 17:05',
+    text: "Good Council meeting yesterday where we passed a Notice of Motion I put into the Council regarding live streaming our meetings to the public; to watch my address click<a href='https://www.facebook.com/councillorjoedavies/videos/941933736984102/'><i class='fa-solid fa-hand-sparkles'></i> here.</a><br><br>In terms of the public transport matters; after getting queries from constituents through Councillors, Chair Scott organised some briefings where we got information. Basically the key is that the Next Bus feature on Metro Go is the source of truth for buses and their scheduling. If our contractor has to cancel a bus due to driver shortages it will be updated through that system. However on the rare occasion this isn't happening and staff are working on why this is happening. I fed this information back to relevant constituents who had been in touch. Overall it was a good process and I am impressed at the speed at which the organisation addressed the issue and be assured that staff are working hard for other public transport issues to be resolved over the coming months.",
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/murchison.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32];
 
 
 let youtube_icon = {
