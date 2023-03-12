@@ -385,8 +385,18 @@ let blog_32 = {
     icon_size: blog_icon.size
 }
 
+let blog_33 = {
+    title: '13 March 11:16',
+    text: "Writing locally to the constituent matters being raised, community members are telling me that sometimes the current bus timetable is inaccurate. Many of my constituents are not receiving the correct information regarding bus access and timetabling; ‘ghost buses’. <br> <br> It would be good to table some information and possible solutions. Whether this means greater communication from Metro or a temporary revision of the timetable until we have enough drivers, I think it would be good to have that discussion on behalf of our Christchurch constituents. <br> <br> I hope Chair Peter Scott will open this conversation with the Council. I would recommend members of the public and community to come to the Regional Council at either our meeting on the 22nd of March, or to our Transport, Urban Development and Air Quality Committee on the 5th of April; to come and air your experiences with us. The link below offers advice on how to attend a meeting and make a deputation. <br> <br> Thank you.<br> <br> <a href='https://www.ecan.govt.nz/get-involved/attending-council-meetings/'><i class='fa-solid fa-hand-sparkles'></i> Attend a meeting.</a>",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/bus.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33];
 
 
 let youtube_icon = {
