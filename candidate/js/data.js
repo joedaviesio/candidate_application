@@ -21,7 +21,7 @@ let button_icon = {
 
 let photos = {
     landing: '/candidate/src/img/bio/joe_cand.JPG',
-    bio_01: '/candidate/src/img/bio/bio_snap.jpg',
+    bio_01: '/candidate/src/img/bio/joe_ecan.jpg',
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
     intro: 'candidate/src/img/bio/swamp.JPG'
 }
