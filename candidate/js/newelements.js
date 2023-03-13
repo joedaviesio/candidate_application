@@ -38,7 +38,7 @@ function sub0_display(){
     comp08.innerHTML = '';
     img1_total(comp04, photos.bio_01);
     text_total(comp05, para.bio);
-    img1_total(comp06, photos.bio_02);
+    // img1_total(comp06, photos.bio_02);
 
     input_container.style.display = 'none';
 
