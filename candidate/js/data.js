@@ -395,8 +395,18 @@ let blog_33 = {
     icon_size: blog_icon.size
 }
 
+let blog_34 = {
+    title: '23 March 08:32',
+    text: "I would like to make it clear that I voted against resolution 8.2 in today's Regional Council meeting regarding the ‘Council Resolution Status Report’. This is because the action unanimously carried in my Notice of Motion from February 15th regarding Digital Democracy, is incomplete and has not been fulfilled by the date requested by the motion (22 March).<br><br>In my personal opinion this is a shame for the Councillors, the Chair and our constituents. I campaigned on Digital Democracy and was elected with this policy. Despite this I will continue to work hard to achieve live streaming. I am hopeful that when the solution is found it will increase the performance of the Council and our engagement with constituents. <br><br> Parliament has been video streaming since the 1960’s and the City Council has been on YouTube since 2013; it’s 2023 and I believe it's time for Regional Government to do the same. <br><br> Thank you.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/joe_chamber_23.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34];
 
 
 let youtube_icon = {
