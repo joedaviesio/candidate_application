@@ -405,8 +405,18 @@ let blog_34 = {
     icon_size: blog_icon.size
 }
 
+let blog_35 = {
+    title: '17 April 14:23',
+    text: "Falcon / kārearea in North Canterbury.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/01.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35];
 
 
 let youtube_icon = {
