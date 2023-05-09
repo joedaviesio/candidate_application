@@ -415,8 +415,18 @@ let blog_35 = {
     icon_size: blog_icon.size
 }
 
+let blog_36 = {
+    title: '09 May 14:15',
+    text: "Burwood AFC 1st 11 vs Cashmere Technical 2nd 11 at Garrick Memorial Park.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/burwood_13.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36];
 
 
 let youtube_icon = {
