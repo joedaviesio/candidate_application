@@ -290,6 +290,7 @@ a {
 }
 
 .blog_wide .blog_component .blog_img_container .blog_img {
+  color: orange;
   width: clamp(50vw, 800px, 90vw);
   border-radius: 22px;
 }

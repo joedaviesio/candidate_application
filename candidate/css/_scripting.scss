@@ -308,6 +308,7 @@
         .blog_img_container {
             // width: 100%;
             .blog_img {
+                color: orange;
                 width: clamp(50vw, 800px, 90vw);
                 border-radius: 22px;
             }
