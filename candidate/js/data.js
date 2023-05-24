@@ -425,8 +425,17 @@ let blog_36 = {
     icon_size: blog_icon.size
 }
 
+let blog_37 = {
+    title: '24 May 16:15',
+    text: "Today we had our Annual Plan deliberations. The major theme of the plan is to hold levels of service steady to the Long Term Plan, with reprioritization, ‘austerity’ in the words of Cllr Mackenzie. ‘Financial prudence’. <br> <br>The major debate was over Cllr Edge’s (Nth Canterbury), amendment to the recommended increased rates by 0.32% to prioritise an additional $500,000 dollars to the Waitaha Action to Impact fund. This is a segment from my debate speech; <br> <br>“I will be supporting the amendments of Councillor Edge. By maintaining Me Uru Rakau funding, thought I note without an amendment, and by increasing the available funding for the Waitaha Action to Impact fund we will be putting a clear signal out to the region that this Council, despite economic headwinds, maintains our current support for the regeneration of our natural environment, on the ground, in the community and that we have heard the feedback themes regarding biodiversity from our engagement process.' <br> <br> The amendment was ‘Not Carried’ with the following voting record. <br> <br> For: Moved Cllr Edge (Nth Cant), Seconded Cllr Vicki Southworth (Sth Chch), Cllr Greg Byrnes (Central Chch), Cllr Paul Dietchse (Sth Chch), Cllr Davies (NE Chch), Deputy Chair Pauling (W Chch), Cllr Robinson (Central Chch). <br> <br>Against: Chair Scott (Sth Cant), Cllr Tutehounuku Korako (Ngai Tahu), Cllr Mackenzie (Mid Cant), Cllr Sunckell (Mid Cant), Cllr McKay (Nth Cant), Cllr David East (NE Chch), Cllr Swiggs (W Chch), Cllr Ward (Sth Cant). <br> <br>Abstention: Cllr Iaean Cranwell (Ngai Tahu). <br> <br>While I’m personally disappointed by the result; it was a fulsome debate and it's important for our chambers of elector representatives to be public facing arenas of policy, ideas and democracy. My policy decision today reflects my election platform statement; “Increased funding for biodiversity projects across Canterbury.”",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/2023-05-24.jpeg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36];
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37];
 
 
 let youtube_icon = {
