@@ -435,7 +435,17 @@ let blog_37 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37];
+
+let blog_38 = {
+    title: '09 June 11:10',
+    text: "Public Transport (pt) update <br><br>1) From July 3 all routes on the Greater Chch Metro Network will be operating at full service levels. The number of ghost buses peaked in Oct 22 with 4300 buses cancelled across the month. This has dropped due to increased driver training and CRC also increased driver wages from $22.75 to $28 in Oct 22 also. <br><br>2) We are continuing to fund $2 dollar fares and from July 1 we introduce $1 fares for Community Services card concessions and for youth under 25.<br><br>3) CRC is proactively pushing for policy or funding to ensure that next cruise ship season doesn’t overwhelm the port and cost the region to subsidise extra users. Maybe funding is the answer but may there be a solution that enables Metro Canterbury to capitalise the extra demand?<br><br>4) I support a patronage model of pt that has <br><br>(i) greater reliability  <br>(ii) greater frequency<br>(iii) less routes<br>(iv) connected to other transport infrastructure.<br><br>I am also an undoubted supporter of regional passenger rail connecting the plains through Christchurch utilising existing heavy rail infrastructure.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/bus-23-09.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38];
 
 
 let youtube_icon = {
