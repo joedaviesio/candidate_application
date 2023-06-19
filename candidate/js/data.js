@@ -445,7 +445,17 @@ let blog_38 = {
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38];
+
+let blog_39 = {
+    title: '19 June 20:16',
+    text: "Submission to the City Councils Southshore and South New Brighton estuary edge project after consultation with the Ihutai Avon Heathcote Estuary Trust <br><br> I am concerned the proposed sets of steps from the new bund to the estuary may encourage dogs onto the tidal flats as has been experienced at McCormacks Bay. Perhaps the number of steps could be reduced to reduce this risk.<br><br> I hope that the existing salt marsh areas are protected for their biodiversity significance and hope that new potential areas may be available for new salt marshes. <br><br> I hope that the rock armour and its impact on estuary edge ecological systems are considered through the future design process.<br><br> I hope that dog friendly areas may be created to take pressure off the estuary and the edge as a walking area for dogs. ",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39];
 
 
 let youtube_icon = {
