@@ -486,7 +486,16 @@ let blog_42 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42];
+let blog_43 = {
+    title: '10 August 18:07',
+    text: ' CANTERBURY PASSENGER RAIL ALERT <br><br>The Regional Transport Committee will meet on the 24th of August, where they will receive a public paper seeking a decision to progress regional passenger rail investigations,<br><br>Option 1 - Do not progress<br><br>Option 2 - Defer<br><br>Option 3 - Commission a market study<br><br>Option 4 - Commence development <br><br>The Committee is made up of the 10 Canterbury Mayors and Chair. <br><br>Things that you can do to advocate for passenger rail; <br><br>Email your local Regional Councillors, your Mayor, Canterbury’s Chair, advocating the evidence and position you hold re passenger rail, <br><br>Or <br><br>Make a public deputation (speech) to the Regional Transport Committee on the 24th of August (email governance@ecan.govt.nz to schedule).',
+ blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43];
 
 
 let youtube_icon = {
