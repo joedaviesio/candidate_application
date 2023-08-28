@@ -508,6 +508,7 @@ let blog_44 = {
 
 let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44];
 
+  
 
 let youtube_icon = {
     type: 'fa-brands',
