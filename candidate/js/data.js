@@ -506,7 +506,17 @@ let blog_44 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44];
+let blog_45 = {
+    title: '27 October 22:33',
+    text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/tcO07TcJK8U?si=YLEPC5K4_PO961vE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+ blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45];
 
   
 
