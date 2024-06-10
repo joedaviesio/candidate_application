@@ -526,7 +526,47 @@ let blog_46 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46];
+let blog_47 = {
+    title: '23 February 18:18 2024',
+    text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/yTT2deWUS-8?si=TQjzdobsD_ALH52Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+ blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_48 = {
+    title: '25 May 10:16 2024',
+    text: "",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/green_fund_2.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_49 = {
+    title: '25 May 10:16 2024',
+    text: "",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/green_fund_1.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_50 = {
+    title: '01 June 19:31 2024',
+    text: "A big couple of days of long term plan deliberations, some policy wins going into the final adoption.<br><br>1) 1 million dollar targeted rate for biodiversity in Christchurch for year 1 of LTP.<br> 2) 200k extra funding into our regional parks.<br> 3) 8% UAGC of total rates revenue (pushes for 12% from the right).<br>4) Banks Peninsula targeted pest rate tied to inflation.<br>5) Public Transport - Rest of network business case brought forward to year 1.<br> 6) Digital democracy - live streaming will be available in the next couple of months.<br> Thank you to acting Chair Pauling for his leadership over the deliberations and the rest of my Cllr colleagues for the robust but respectful debates and resolutions.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/joe_craig.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50];
 
   
 
