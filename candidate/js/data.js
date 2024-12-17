@@ -28,7 +28,7 @@ let photos = {
 
 let para = {
 
-    bio: "I'm a Canterbury local who grew up in Christchurch after moving from England with my family. My leadership journey began at Linwood College, where I served as head boy during the 2011 earthquakes – an experience that taught me the crucial importance of clear, accurate information during times of crisis.<br><br> My commitment to public service started with my role as a Community Board member at the Christchurch City Council. Since then, I've built a strong foundation in science and technology, which informs my evidence-based approach to decision-making. I apply these skills both as a graphic design educator and in operating a tourism enterprise.<br><br>During my 2022-2025 term on the Canterbury Regional Council, I've prioritized data-driven solutions as Public Transport Core Service Lead. By focusing on quality information and research, we've made meaningful progress on initiatives like modern payment systems, pet-friendly transport options, and expanded rural services. I will continue lobbying for a Rolleston Christchurch Rangiora passenger rail line. <br><br>My belief that quality information leads to better decisions has driven my work in digital democracy. We've transformed council transparency through live-streamed meetings and improved public access to decision-making processes. This commitment to informed governance extends to preparing our region for the future through initiatives like our Artificial Intelligence Working Group that I am currently standing up; and updating our delegations manual.<br><br>Every decision I make is guided by two principles: the mandate my constituents gave me through my elected policy platform, and a foundation of thorough research and community input.<br><br> Vox populei.",
+    bio: "I'm a Canterbury local who grew up in Christchurch after moving from England with my family. My leadership journey began at Linwood College, where I served as head boy during the 2011 earthquakes – an experience that taught me the crucial importance of clear, accurate information during times of crisis.<br><br> My commitment to public service started with my role as a Community Board member at the Christchurch City Council. Since then, I've built a strong foundation in science and technology, which informs my evidence-based approach to decision-making. I apply these skills both as a graphic design educator and in operating a tourism enterprise.<br><br>During my 2022-2025 term on the Canterbury Regional Council, I've prioritized data-driven solutions as Public Transport Core Service Lead. By focusing on quality information and research, we've made meaningful progress on initiatives like modern payment systems, pet transport options (ongoing), and expanded rural services. I will continue lobbying for a Rolleston Christchurch Rangiora passenger rail line. <br><br>My belief that quality information leads to better decisions has driven my work in digital democracy. We've transformed council transparency through live-streamed meetings and improved public access to decision-making processes. This commitment to informed governance extends to preparing our region for the future through initiatives like our Artificial Intelligence Working Group that I am currently standing up; and updating our delegations manual.<br><br>Every decision I make is guided by two principles: the mandate my constituents gave me through my elected policy platform, and a foundation of thorough research and community input.<br><br> Vox populei.",
 
     bio_x: "Welcome to my website. My name is Joe Davies; I'm a Councillor for the North East Christchurch / Ōrei constituency on the Canterbury Regional Council (Environment Canterbury - ECan)."
     
@@ -596,8 +596,18 @@ let blog_53 = {
     icon_size: blog_icon.size
 }
 
+let blog_54 = {
+    title: '17 December 14:14 2024 ',
+    text: "As the year is coming to a close, I would like to give thanks to all the wonderful organisations I've met and engaged with in the last 6 months, from June to December. I look forward to continuing to build community regional relations in Christchurch.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/dddd.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54];
 
   
 
