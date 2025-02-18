@@ -606,8 +606,18 @@ let blog_54 = {
     icon_size: blog_icon.size
 }
 
+let blog_55 = {
+    title: '18 February 14:14 2025 ',
+    text: "NOTICE OF MOTION To be considered at the Canterbury Regional Council<br><br>Meeting Date: 26 February 2025<br><br>“That the Canterbury Regional Council requests staff to provide a report to the Strategy and Policy Committee’s meeting on 2 April 2025, on the establishment of an Artificial Intelligence Working Group with the following Terms of Reference:<br><br>CANTERBURY REGIONAL COUNCIL ARTIFICIAL INTELLIGENCE WORKING GROUP<br><br>PURPOSE<br><br>The Artificial Intelligence Working Group is established as an informal working group to explore and discuss artificial intelligence application in local government, central government and resource management.<br><br>MEMBERSHIP<br><br>Chair: Councillor Joe Davies <br>Council Members: Councillors Nick Ward, Claire McKay, Deon Swiggs and Tutehounuku Korako <br>Officer Representatives: 1-2 staff members as determined by the Chief Executive<br> In the absence of the Chair, the Councillors present shall determine the Chair for that meeting<br><br>MEETING SCHEDULE<br><br>Three quarterly meetings to be held before the end of the triennium (October 2025)<br>Meetings will be conducted as 2-4 hour sessions<br><br>All sessions will be live streamed for public access<br><br>SCOPE AND OBJECTIVES <br><br>The Working Group will:<br><br>Analyze AI trends and developments at international, national, and organisational levels <br>Foster knowledge sharing between elected members, staff, and the public<br>Promote digital democracy through transparent and accessible discussions<br>Develop informed perspectives on AI applications in local government, government and resource management.<br><br>OPERATIONAL FRAMEWORK<br><br>The Chair will lead agenda development and will invite external speakers <br>Discussion format will be conversational and engaging while maintaining professional standards <br>Content will balance governance and operational perspectives <br>Agendas will remain flexible to accommodate emerging topics and member input<br>Sessions will emphasize public accessibility and understanding of technical concepts<br><br>REPORTING <br><br>The Working Group will report to the Strategy and Policy Committee on its activities and insights gained through the quarterly sessions.<br><br>GOVERNANCE SUPPORT<br><br>Administrative support will be provided by Council staff as determined by the Chief Executive.<br><br>TERM<br><br>The Working Group will operate until the end of the current triennium (October 2025)",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/dddd.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54];
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55];
 
   
 
