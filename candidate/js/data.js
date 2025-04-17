@@ -647,7 +647,7 @@ let blog_58 = {
 }
 
 let blog_59 = {
-    title: '18 April 2024 Happy Easter ',
+    title: '18 April 2025 Happy Easter ',
     text: "",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/canterbury.jpeg',
