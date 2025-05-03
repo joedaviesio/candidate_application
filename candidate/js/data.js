@@ -655,9 +655,17 @@ let blog_59 = {
     icon_title: photo_icon.title,
     icon_size: blog_icon.size
 }
+let blog_60 = {
+    title: '03 May 2025 14:11 2025',
+    text: " I went for a jog through Sydenham, Addington, the Botanic Gardens and the city, and stopped to read one of the information signs outside the Provincial Chambers. It outlined Mountfort's Gothic stone chamber that took a hammering in 2011.<br><br>An older couple approached one of the wooden doors of the original timber-on-stone structure. The yellow earthquake sticker, now bleached white from ten years of exposure to the elements, indicated the building was earthquake prone with only 20% structural confidence.<br><br>The gentleman pulled the large iron handle and they entered the building, the door shutting behind them with a thud and spray of dust as though they'd been sealed into a hidden realm. I stopped, quickly realising I couldn't follow them inside. I brushed away some grass from the faded golden sign stating 'public viewings on Saturday from 10:30 - 15:30' and waited to see what would happen.<br><br>A moment later, the door reopened and an engineer in a hard hat and orange vest ushered the tourist couple back onto Durham Street North. The gentleman protested that the sign said it was open. It was a funny and light moment reflecting the sparkling autumn Chch day and introduced myself to the engineer, mentioning I would be visiting next Friday with ECan. She replied that she and her colleague would be guiding us. ",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/chambers.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
 
-
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59];
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60];
 
   
 
