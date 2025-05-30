@@ -665,7 +665,17 @@ let blog_60 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60];
+let blog_62 = {
+    title: '30 May 2025 15:10 2025',
+    text: "<a href='https:www.chrt.space'><i class='fa-solid fa-hand-sparkles'></i></a> Christchurch Heavy Rail Transit Development Case www.chrt.space <a href='https:www.chrt.space'><i class='fa-solid fa-hand-sparkles'></i></a>",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/bio/cover.png',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60, blog_62];
 
   
 
