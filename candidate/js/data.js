@@ -667,7 +667,7 @@ let blog_60 = {
 
 let blog_62 = {
     title: '30 May 2025 15:10 2025',
-    text: "<a href='https:www.chrt.space'><i class='fa-solid fa-hand-sparkles'></i></a> Christchurch Heavy Rail Transit Development Case www.chrt.space <a href='https:www.chrt.space'><i class='fa-solid fa-hand-sparkles'></i></a>",
+    text: "<a href='https://www.chrt.space'><i class='fa-solid fa-hand-sparkles'></i></a> Christchurch Heavy Rail Transit Development Case www.chrt.space <a href='https://www.chrt.space'><i class='fa-solid fa-hand-sparkles'></i></a>",
     blog_img_boolean: 'true',
     blog_img_src: 'candidate/src/img/bio/cover.png',
     icon_type: blog_icon.type, 
