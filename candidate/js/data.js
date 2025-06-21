@@ -95,7 +95,65 @@ let list_6 = {
     icon_size: list_icon.size
 }
 
-let list_total = [list_5, list_1, list_2, list_4, list_6];
+let list_7 = {
+    title: '2022 - 2025',
+    text: 'Policy and platform.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+let list_8 = {
+    title: 'Water',
+    text: 'Safe drinking water and swimmable rivers.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+
+let list_9 = {
+    title: 'Rail',
+    text: 'Low fares, accessible routes, and a commitment to a mass rapid transit system for greater Christchurch and Canterbury.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+let list_10 = {
+    title: 'Biodiversity',
+    text: 'Increased funding for biodiversity projects and eco sanctuaries.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+let list_11 = {
+    title: 'Digital Democracy',
+    text: 'Support for procuring domestic technology and double Canterbury Maps funding in the 2027 LTP.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+let list_12 = {
+    title: 'Public Ownership',
+    text: 'Keep strategic assets in public hands.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+let list_13 = {
+    title: 'Solar',
+    text: 'Explore commercial opportunities for solar generation on ECan land.',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
+
+
+let list_total = [list_8, list_9, list_10, list_11, list_12, list_13];
 
 console.log(list_total[0]);
 
