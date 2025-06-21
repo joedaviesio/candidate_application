@@ -1,5 +1,5 @@
 let titles = {
-    prime_header: 'Cllr Joe DAVIES',
+    prime_header: 'Cllr Joe Davies',
     slogan: "Delivers for Canterbury.",
     sub1: 'bio',
     sub2: 'policy',
@@ -20,10 +20,10 @@ let button_icon = {
 }
 
 let photos = {
-    landing: '/candidate/src/img/bio/joe_ecan_v2.jpg',
+    landing: 'candidate/src/img/bio/swamp.JPG',
     bio_01: '',
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
-    intro: 'candidate/src/img/bio/swamp.JPG'
+    intro: 'candidate/src/img/bio/daviesheadshot.jpg'
 }
 
 let para = {
