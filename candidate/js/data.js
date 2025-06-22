@@ -105,7 +105,7 @@ let list_7 = {
 
 let list_8 = {
     title: 'Water',
-    text: 'Lower nutrient limits.',
+    text: 'Awa protection, lower nutrient limits and wetland restoration.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
