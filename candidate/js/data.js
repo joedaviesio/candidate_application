@@ -51,7 +51,7 @@ let list_icon = {
 
 let list_1 = {
     title: 'Freshwater action and biodiversity.',
-    text: 'Increased funding for biodiversity projects across Canterbury. Planting wetlands on the edges of waterways to filter nutrients and run off from agricultural land.',
+    text: 'Decreased nitrate concentration limits.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
@@ -105,7 +105,7 @@ let list_7 = {
 
 let list_8 = {
     title: 'Water',
-    text: 'Safe drinking water and swimmable rivers.',
+    text: 'Lower nutrient limits.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
@@ -152,8 +152,16 @@ let list_13 = {
     icon_size: list_icon.size
 }
 
+let list_14 = {
+    title: 'Civil Defence',
+    text: 'Increased flood protection investment. ',
+    icon_type: list_icon.type, 
+    icon_title: list_icon.title,
+    icon_size: list_icon.size
+}
 
-let list_total = [list_8, list_9, list_10, list_11, list_12, list_13];
+
+let list_total = [list_8, list_9, list_10, list_11, list_12, list_13, list_14];
 
 console.log(list_total[0]);
 
