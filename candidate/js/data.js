@@ -1,6 +1,6 @@
 let titles = {
-    prime_header: 'Cllr Joe Davies',
-    slogan: "Delivers for Canterbury.",
+    prime_header: 'Joe DAVIES',
+    slogan: "FOR CANTERBURY.",
     sub1: 'bio',
     sub2: 'policy',
     sub3: 'blog',
@@ -28,9 +28,9 @@ let photos = {
 
 let para = {
 
-    bio: "I'm a Canterbury local who grew up in Christchurch after moving from England with my family. My leadership journey began at Linwood College, where I served as head boy during the 2011 earthquakes – an experience that taught me the crucial importance of clear, accurate information during times of crisis.<br><br> My commitment to public service started with my role as a Community Board member at the Christchurch City Council. Since then, I've built a strong foundation in science and technology, which informs my evidence-based approach to decision-making. I apply these skills both as a designer and in operating a tourism enterprise.<br><br>During my 2022-2025 term on the Canterbury Regional Council, I've prioritized data-driven solutions as Public Transport Core Service Lead. By focusing on quality information and research, we've made meaningful progress on service uplifts including Route 7 connecting Queenspark to the city on a high frequency corridor, dogs on buses, and expanded rural services. I will continue advocating for the CHRT Rangiora Rolleston passenger rail line (see www.chrt.space). <br><br>My belief that quality information leads to better decisions has driven my work in digital democracy. We've transformed council transparency through live-streamed meetings and improved public access to decision-making processes. This commitment to informed governance extends to preparing our region for the future through initiatives like our Artificial Intelligence Working Group that I chair; and updating our delegations manual.<br><br>2025 is local body election year and I hope my constituents will put their faith in my running mate Peter Langlands (www.peterlanglands.com) and I, to win our consituency seats and to implement our 2025 policy platform on the Canterbury Regional Council. <br><br> ",
+    bio: "I'm a Canterbury local who grew up in Christchurch after moving from England with my family. My leadership journey began at Linwood College, where I served as head boy during the 2011 earthquakes – an experience that taught me the crucial importance of clear, accurate information during times of crisis.<br><br>My commitment to public service started with my role as a Community Board member at the Christchurch City Council. Since then, I've built a strong foundation in science and technology, which informs my evidence-based approach to decision-making. I apply these skills both as a designer and in tourism.<br><br> During my 2022-2025 term on the Canterbury Regional Council, I've prioritized data-driven solutions as Public Transport Core Service Lead. By focusing on quality information and research, we've made meaningful progress on service uplifts including Route 7 connecting Queenspark to the city on a high frequency corridor, dogs on buses, and expanded rural services. I will continue advocating for the CHRT Rangiora Rolleston passenger rail line (see www.chrt.space).<br><br> My environmental work has focused on water protection through wetland restoration. I've championed increased funding for biodiversity projects and eco sanctuaries, successfully working to secure the $1 million biodiversity targeted rate in Christchurch and advancing the redzone consents up the Avon River corridor to enhance our waterway ecosystems. I am also Chair of the Avon Heathcote Estuary Trust.<br><br>My belief that quality information leads to better decisions has driven my work in digital democracy. We've transformed council transparency through live-streamed meetings and improved public access to decision-making processes, established the Canterbury Artificial Intelligence Working Group, and updated our delegations manual.",
 
-    bio_x: "Welcome to my website. My name is Joe Davies; I'm a Councillor for the North East Christchurch / Ōrei constituency on the Canterbury Regional Council (Environment Canterbury - ECan) and I'm standing again in the 2025 local body election."
+    bio_x: "Welcome to my website. My name is Joe Davies; I'm a Councillor for the North East Christchurch constituency on the Canterbury Regional Council (ECan) and I'm standing again in the 2025 local body election."
     
 
 
@@ -105,7 +105,7 @@ let list_7 = {
 
 let list_8 = {
     title: 'Water',
-    text: 'Awa protection, lower nutrient limits and wetland restoration.',
+    text: 'Water protection, lower nutrient limits and wetland restoration.',
     icon_type: list_icon.type, 
     icon_title: list_icon.title,
     icon_size: list_icon.size
