@@ -124,7 +124,7 @@ comp.append(img1_wide);
 
 img1.src = popo;
 }
-img1_total(comp05, photos.intro);
+// img1_total(comp05, photos.intro);
 img1_total(comp08, photos.landing);
 // img1_total(comp06, photos.landing);
 
