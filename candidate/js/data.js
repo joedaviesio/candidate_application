@@ -761,7 +761,17 @@ let blog_64 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60, blog_62, blog_63, blog_64];
+let blog_65 = {
+    title: '10 September 2025 18:39 2025',
+    text: "Response to the ECan youth ropu candidate questions<br><br>What issues do you think are the most important to young people within the Canterbury region, and what would you do as a councillor to address these issues?<br><br> Better public transport. Young people are big users of our buses.<br><br>Why do you think political engagement with youth is low, and what would you do to address this?<br><br>The voting system itself is outdated and people don't connect with councils fully until they pay rates directly not through rent. Which is becoming increasingly hard as young people struggle to get into the housing market.<br><br>On a more positive note, there are many young people engaging with the election - and many young candidates who have done quite well in recent local body elections, particularly at CCC. At a cross-organisational level, there is a network of young local politicians called YEM (Young Elected Members), an active cohort within LGNZ (Local Government New Zealand).",
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/touch.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60, blog_62, blog_63, blog_64, blog_65];
 
   
 
