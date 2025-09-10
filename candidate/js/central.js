@@ -283,6 +283,53 @@ function blog_comp(comp, i) {
 
     // socials
 
+    // Add this function to your central.js file, after your existing blog_comp function
+
+// landing video component - similar to blog but for landing page
+function landing_video_comp(comp, videoData) {
+    let landing_component = document.createElement('div');
+    landing_component.classList.add('blog_component'); // reuse blog styling
+
+    let landing_header_container_wide = document.createElement('div'); 
+    landing_header_container_wide.classList.add('blog_header_container_wide');
+
+    let landing_header_container = document.createElement('div'); 
+    landing_header_container.classList.add('blog_header_container');
+
+    let landing_icon = document.createElement('i'); 
+    landing_icon.classList.add(videoData.icon_type);
+    landing_icon.classList.add(videoData.icon_title);
+    landing_icon.classList.add(videoData.icon_size);
+    landing_icon.classList.add('blog_icon');
+
+    let landing_header = document.createElement('div');
+    landing_header.classList.add('blog_header'); 
+    landing_header.innerHTML = videoData.title; 
+
+    landing_header_container.append(landing_icon);
+    landing_header_container.append(landing_header);
+    landing_header_container_wide.append(landing_header_container);
+    landing_component.append(landing_header_container_wide);
+
+    let landing_text = document.createElement('div'); 
+    landing_text.classList.add('blog_text'); 
+    landing_text.innerHTML = videoData.text;
+
+    landing_component.append(landing_text);
+
+    comp.append(landing_component);
+}
+
+// Create and display the landing video
+let landing_video_container = document.createElement('div'); 
+landing_video_container.classList.add('blog_wide'); // reuse blog styling
+
+// Display the landing video (add this after your existing component creation code)
+landing_video_comp(landing_video_container, landing_video);
+
+// Append to a component that shows on landing page - let's use comp02 for the landing video
+comp02.append(landing_video_container);
+
     // social 
 function socials_comp(comp, i){
 
