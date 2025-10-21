@@ -1,5 +1,5 @@
 let titles = {
-    prime_header: 'Joe DAVIES',
+    prime_header: 'Cllr Joe DAVIES',
     slogan: "",
     sub1: 'bio',
     sub2: 'policy',
@@ -20,7 +20,7 @@ let button_icon = {
 }
 
 let photos = {
-    landing: 'candidate/src/img/bio/swamp.JPG',
+    landing: 'candidate/src/img/blog/02_stenciled.jpg',
     bio_01: '',
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
     intro: ''
@@ -30,7 +30,7 @@ let para = {
 
     bio: "I grew up in Christchurch after moving from England with my family. My leadership journey began at Linwood College, where I served as head boy during the 2011 earthquakes – an experience that taught me the importance of clear, accurate information during times of crisis. It was also a period that has shaped our city and many of our lives and I find my mind often wondering back to the autumn of 2011.<br><br>My commitment to public service started with my role as a Community Board member at the Christchurch City Council. Since then, I've built a strong foundation in science and technology, which informs my evidence-based approach to decision-making. I apply these skills in design and studies. Having a Bachelors of Science in Environmental Science and health science qualifications from ARA.<br><br> During my 2022-2025 term on the Canterbury Regional Council, I've prioritised data-driven solutions as Public Transport Core Service Lead. By focusing on quality information and research, we've made meaningful progress on service uplifts including Route 7 connecting Queenspark to the city on a high frequency corridor, dogs on buses, and expanded rural services. I will continue advocating for the CHRT Rangiora Rolleston passenger rail line (see www.chrt.space).<br><br> My environmental work has focused on water protection through wetland restoration. I've championed increased funding for biodiversity projects and eco sanctuaries, successfully working to secure the $1 million biodiversity targeted rate in Christchurch and advancing the redzone consents up the Avon River corridor to enhance our waterway ecosystems. I am also Chair of the Avon Heathcote Estuary Trust.<br><br>My belief that quality information leads to better decisions has driven my work in digital democracy. We've transformed council transparency through live-streamed meetings and improved public access to decision-making processes, established the Canterbury Artificial Intelligence Working Group, and updated our delegations manual.",
 
-    bio_x: "2025-08-25 <br><br>There has to be three priorities for the next council; <br><br>We have to protect Christchurch’s aquifers, we have to safeguard Christchurch’s drinking water. <br><br>We have to support our buses, our trains, we have to support public transport. <br><br>We have to increase flood protection funding.<br><br>It's been a good period in the campaign getting out and talking to the people of east Christchurch and what they think about the council and the election.<br><br>The water conversations are often in relation to chlorination and the work going on the Avon corridor, a hundred million dollar multi generational project connecting Brighton to the city in a natural pocket of native and introduced species up the Avon Otakaro. It's been great that environmental consents have been granted to the city in many of these projects. <br><br>Further north - the 1 million dollar biodiversity targeted rate has been partially spent into the regional estate - 10,000 hectares of land up the Waimakariri for flood protection that over time the region has invested more into plantings, native protection and biodiversity. We have a 40% increase to our regional park maintenance budget through this Councils long term plan and Tutehounuku Korako and I have begun the process of the development of a Kowhai Regional Park in Kaikoura. <br><br>We have had investments into Te Rauakaaka, our reserve at the opening to Brooklands lagoon. I have chaired the Avon Heathcote Estuary Trust as we have transitioned the Mother of All Clean ups project to the Community Waterways Partnership and built stronger relations with Te Ihutai Ahuwhenua Trust. I have also moved a policy regarding crown purchase of nutrient hotspot farms for quick land and water use change, through the New Zealand Labour Party, that has proceeded through our regional conference to the national policy council for review. <br><br>I was informed yesterday that the NZLP policy council have decided not to progress taking the remit to national conference, which is a decision I will seek to understand better to progress the nutrient issue in Labour. <br><br>There is a storm hanging over regional government in New Zealand with ongoing resource management reform led by Minister Bishop. The next council has to show calm, grace and sensibility headed into conversations with the government and has to do so in the best interests of Canterbury and Christchurch's ratepayers while putting the protection of our awa and environment into practise.<br><br>"
+    bio_x: ""
     
 
 
@@ -772,7 +772,7 @@ let blog_65 = {
 }
 
 let blog_66 = {
-    title: '23 June 11:14 2023',
+    title: '22 October 06:26 2025',
     text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/_aLwcCPFyxI?si=tydnujGhSZ6o93R2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
  blog_img_boolean: 'false',
     blog_img_src: 'candidate/src/img/bio/south_brighton.JPG',
@@ -781,13 +781,23 @@ let blog_66 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60, blog_62, blog_63, blog_64, blog_65];
+let blog_67 = {
+    title: '22 October 2025 06:27 2025',
+    text: "2025 CAMPAIGN STUMP<br><br>There has to be three priorities for the next council; <br><br>We have to protect Christchurch’s aquifers, we have to safeguard Christchurch’s drinking water. <br><br>We have to support our buses, our trains, we have to support public transport. <br><br>We have to increase flood protection funding.<br><br>It's been a good period in the campaign getting out and talking to the people of east Christchurch and what they think about the council and the election.<br><br>The water conversations are often in relation to chlorination and the work going on the Avon corridor, a hundred million dollar multi generational project connecting Brighton to the city in a natural pocket of native and introduced species up the Avon Otakaro. It's been great that environmental consents have been granted to the city in many of these projects. <br><br>Further north - the 1 million dollar biodiversity targeted rate has been partially spent into the regional estate - 10,000 hectares of land up the Waimakariri for flood protection that over time the region has invested more into plantings, native protection and biodiversity. We have a 40% increase to our regional park maintenance budget through this Councils long term plan and Tutehounuku Korako and I have begun the process of the development of a Kowhai Regional Park in Kaikoura. <br><br>We have had investments into Te Rauakaaka, our reserve at the opening to Brooklands lagoon. I have chaired the Avon Heathcote Estuary Trust as we have transitioned the Mother of All Clean ups project to the Community Waterways Partnership and built stronger relations with Te Ihutai Ahuwhenua Trust. I have also moved a policy regarding crown purchase of nutrient hotspot farms for quick land and water use change, through the New Zealand Labour Party, that has proceeded through our regional conference to the national policy council for review. <br><br>I was informed yesterday that the NZLP policy council have decided not to progress taking the remit to national conference, which is a decision I will seek to understand better to progress the nutrient issue in Labour. <br><br>There is a storm hanging over regional government in New Zealand with ongoing resource management reform led by Minister Bishop. The next council has to show calm, grace and sensibility headed into conversations with the government and has to do so in the best interests of Canterbury and Christchurch's ratepayers while putting the protection of our awa and environment into practise.<br><br>",
+    blog_img_boolean: 'false',
+    blog_img_src: 'candidate/src/img/bio/touch.jpg',
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60, blog_62, blog_63, blog_64, blog_65, blog_66, blog_67];
 
 // Add this new landing video object after your existing blog objects in data.js
 
 let landing_video = {
-    title: 'Latest Update',
-    text: '<iframe width="100%" height="315" src="https://www.youtube.com/embed/_aLwcCPFyxI?si=tydnujGhSZ6o93R2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+    title: 'Update coming soon ;) ....',
+    text: '',
     blog_img_boolean: 'false',
     icon_type: blog_icon.type, 
     icon_title: blog_icon.title,
