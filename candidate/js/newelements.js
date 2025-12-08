@@ -93,7 +93,7 @@ function sub2_display(){
     input_container.style.display = 'none';
  
     console.log('hello world');
-    comp04.append(blog_wide); 
+    comp04.append(blog_wide);  // This line needs blog_wide to exist
 
     sub2.style.backgroundColor = '#d82c20';
     sub0.style.backgroundColor = 'rgba(191, 96, 107, 0.518)';
@@ -103,8 +103,7 @@ function sub2_display(){
         dropdown_container_wide.classList.remove('modalon');
         dropdown_container_wide.classList.add('modaloff')
     }
-
-} 
+}
 
 function socials_display(){
     iframe_component.innerHTML = '';

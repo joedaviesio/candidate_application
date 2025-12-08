@@ -140,7 +140,7 @@ text_container.append(text);
 comp.append(text_container);
 
 }
-text_total(comp05, para.bio_x);
+// text_total(comp05, para.bio_x);
 
 
 // dropdown
@@ -222,113 +222,136 @@ for(i=0; i<list_total.length; i++)
 //  blog
 
     // blog
-function blog_comp(comp, i) {
-    let blog_component = document.createElement('div');
-    blog_component.classList.add('blog_component'); 
-
-    let blog_header_container_wide = document.createElement('div'); 
-    blog_header_container_wide.classList.add('blog_header_container_wide');
-
-    let blog_header_container = document.createElement('div'); 
-    blog_header_container.classList.add('blog_header_container');
-
-    let blog_icon = document.createElement('i'); 
-    blog_icon.classList.add(blog_total[i].icon_type);
-    blog_icon.classList.add(blog_total[i].icon_title);
-    blog_icon.classList.add(blog_total[i].icon_size);
-    blog_icon.classList.add('blog_icon');
-
-    let blog_header = document.createElement('div');
-    blog_header.classList.add('blog_header'); 
-
-    blog_header.innerHTML = blog_total[i].title; 
-
-    blog_header_container.append(blog_icon);
-    blog_header_container.append(blog_header);
-    blog_header_container_wide.append(blog_header_container);
-    blog_component.append(blog_header_container_wide);
-
-    let blog_text = document.createElement('div'); 
-    blog_text.classList.add('blog_text'); 
-    blog_text.innerHTML = blog_total[i].text;
-
-    blog_component.append(blog_text);
-
-    if (blog_total[i].blog_img_boolean == 'true'){
-        let blog_img_container = document.createElement('div');
-        blog_img_container.classList.add('blog_img_container'); 
-        blog_img_container.classList.add('holds-the-frame'); 
-        let blog_img = document.createElement('img'); 
-        blog_img.classList.add('blog_img');
-        blog_img.src = blog_total[i].blog_img_src;
-
-        blog_img_container.append(blog_img);
-
-        blog_component.append(blog_img_container);
-
+    function blog_comp(comp, i) {
+        let blog_component = document.createElement('div');
+        blog_component.classList.add('blog_component'); 
+    
+        let blog_header_container_wide = document.createElement('div'); 
+        blog_header_container_wide.classList.add('blog_header_container_wide');
+    
+        let blog_header_container = document.createElement('div'); 
+        blog_header_container.classList.add('blog_header_container');
+    
+        let blog_icon = document.createElement('i'); 
+        blog_icon.classList.add(blog_total[i].icon_type);
+        blog_icon.classList.add(blog_total[i].icon_title);
+        blog_icon.classList.add(blog_total[i].icon_size);
+        blog_icon.classList.add('blog_icon');
+    
+        let blog_header = document.createElement('div');
+        blog_header.classList.add('blog_header'); 
+        blog_header.innerHTML = blog_total[i].title; 
+    
+        blog_header_container.append(blog_icon);
+        blog_header_container.append(blog_header);
+        blog_header_container_wide.append(blog_header_container);
+        blog_component.append(blog_header_container_wide);
+    
+        let blog_text = document.createElement('div'); 
+        blog_text.classList.add('blog_text'); 
+        blog_text.innerHTML = blog_total[i].text;
+        blog_component.append(blog_text);
+    
+        // Check if this is a gallery post
+        if (blog_total[i].is_gallery && blog_total[i].gallery_images) {
+            let gallery_container = document.createElement('div');
+            gallery_container.classList.add('blog_gallery_container');
+            
+            let gallery_img_wrapper = document.createElement('div');
+            gallery_img_wrapper.classList.add('blog_img_container');
+            gallery_img_wrapper.classList.add('holds-the-frame');
+            
+            let gallery_img = document.createElement('img');
+            gallery_img.classList.add('blog_img');
+            gallery_img.classList.add('gallery_img');
+            gallery_img.src = blog_total[i].gallery_images[0];
+            gallery_img.dataset.currentIndex = '0';
+            gallery_img.dataset.totalImages = blog_total[i].gallery_images.length;
+            
+            // Store all gallery images in dataset
+            blog_total[i].gallery_images.forEach((imgSrc, idx) => {
+                gallery_img.dataset[`img${idx}`] = imgSrc;
+            });
+            
+            gallery_img_wrapper.append(gallery_img);
+            
+            // Create navigation controls
+            let gallery_controls = document.createElement('div');
+            gallery_controls.classList.add('gallery_controls');
+            
+            let prev_btn = document.createElement('button');
+            prev_btn.classList.add('gallery_btn', 'gallery_prev');
+            prev_btn.innerHTML = '&#8249;';
+            
+            let gallery_counter = document.createElement('span');
+            gallery_counter.classList.add('gallery_counter');
+            gallery_counter.innerHTML = `1 / ${blog_total[i].gallery_images.length}`;
+            
+            let next_btn = document.createElement('button');
+            next_btn.classList.add('gallery_btn', 'gallery_next');
+            next_btn.innerHTML = '&#8250;';
+            
+            gallery_controls.append(prev_btn);
+            gallery_controls.append(gallery_counter);
+            gallery_controls.append(next_btn);
+            
+            gallery_container.append(gallery_img_wrapper);
+            gallery_container.append(gallery_controls);
+            blog_component.append(gallery_container);
+            
+            // Add event listeners for navigation
+            prev_btn.onclick = function() {
+                let currentIndex = parseInt(gallery_img.dataset.currentIndex);
+                let totalImages = parseInt(gallery_img.dataset.totalImages);
+                let newIndex = (currentIndex - 1 + totalImages) % totalImages;
+                gallery_img.src = gallery_img.dataset[`img${newIndex}`];
+                gallery_img.dataset.currentIndex = newIndex;
+                gallery_counter.innerHTML = `${newIndex + 1} / ${totalImages}`;
+            };
+            
+            next_btn.onclick = function() {
+                let currentIndex = parseInt(gallery_img.dataset.currentIndex);
+                let totalImages = parseInt(gallery_img.dataset.totalImages);
+                let newIndex = (currentIndex + 1) % totalImages;
+                gallery_img.src = gallery_img.dataset[`img${newIndex}`];
+                gallery_img.dataset.currentIndex = newIndex;
+                gallery_counter.innerHTML = `${newIndex + 1} / ${totalImages}`;
+            };
+            
+        } else if (blog_total[i].blog_img_boolean == 'true') {
+            // Regular single image (existing functionality)
+            let blog_img_container = document.createElement('div');
+            blog_img_container.classList.add('blog_img_container'); 
+            blog_img_container.classList.add('holds-the-frame'); 
+            let blog_img = document.createElement('img'); 
+            blog_img.classList.add('blog_img');
+            blog_img.src = blog_total[i].blog_img_src;
+            blog_img_container.append(blog_img);
+            blog_component.append(blog_img_container);
+        }
+      
+        comp.append(blog_component);
     }
-  
-    comp.append(blog_component);
-}
 
     let blog_wide = document.createElement('div'); 
     blog_wide.classList.add('blog_wide');
 
-        for(i=0; i<blog_total.length; i++)
-{
-    blog_comp(blog_wide, i);
-            }
+    for(i=0; i<blog_total.length; i++)
+    {
+        blog_comp(blog_wide, i);
+    }
 
-        // comp03.append(blog_wide); //
-
-    // socials
-
-    // Add this function to your central.js file, after your existing blog_comp function
-
-// landing video component - similar to blog but for landing page
-function landing_video_comp(comp, videoData) {
-    let landing_component = document.createElement('div');
-    landing_component.classList.add('blog_component'); // reuse blog styling
-
-    let landing_header_container_wide = document.createElement('div'); 
-    landing_header_container_wide.classList.add('blog_header_container_wide');
-
-    let landing_header_container = document.createElement('div'); 
-    landing_header_container.classList.add('blog_header_container');
-
-    let landing_icon = document.createElement('i'); 
-    landing_icon.classList.add(videoData.icon_type);
-    landing_icon.classList.add(videoData.icon_title);
-    landing_icon.classList.add(videoData.icon_size);
-    landing_icon.classList.add('blog_icon');
-
-    let landing_header = document.createElement('div');
-    landing_header.classList.add('blog_header'); 
-    landing_header.innerHTML = videoData.title; 
-
-    landing_header_container.append(landing_icon);
-    landing_header_container.append(landing_header);
-    landing_header_container_wide.append(landing_header_container);
-    landing_component.append(landing_header_container_wide);
-
-    let landing_text = document.createElement('div'); 
-    landing_text.classList.add('blog_text'); 
-    landing_text.innerHTML = videoData.text;
-
-    landing_component.append(landing_text);
-
-    comp.append(landing_component);
-}
+    // comp03.append(blog_wide); //
 
 // Create and display the landing video
-let landing_video_container = document.createElement('div'); 
-landing_video_container.classList.add('blog_wide'); // reuse blog styling
+// let landing_video_container = document.createElement('div'); 
+// landing_video_container.classList.add('blog_wide'); // reuse blog styling
 
-// Display the landing video (add this after your existing component creation code)
-landing_video_comp(landing_video_container, landing_video);
+// // Display the landing video (add this after your existing component creation code)
+// landing_video_comp(landing_video_container, landing_video);
 
 // Append to a component that shows on landing page - let's use comp02 for the landing video
-comp02.append(landing_video_container);
+
 
     // social 
 function socials_comp(comp, i){

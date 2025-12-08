@@ -642,3 +642,56 @@ a {
   font-size: 1rem;
 }
 /*# sourceMappingURL=central.css.map */
+
+.blog_gallery_container {
+  width: 100%;
+  position: relative;
+}
+
+.gallery_controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 22px;
+}
+
+.gallery_btn {
+  background-color: #d82c20;
+  color: white;
+  border: none;
+  font-size: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.gallery_btn:hover {
+  background-color: #b02418;
+  transform: scale(1.1);
+}
+
+.gallery_btn:active {
+  transform: scale(0.95);
+}
+
+.gallery_counter {
+  font-family: 'filson-pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  min-width: 60px;
+  text-align: center;
+}
+
+.gallery_img {
+  transition: opacity 0.3s ease;
+}

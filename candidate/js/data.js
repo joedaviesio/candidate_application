@@ -20,7 +20,7 @@ let button_icon = {
 }
 
 let photos = {
-    landing: 'candidate/src/img/blog/02_stenciled.jpg',
+    landing: 'candidate/src/img/bio/portrait2.jpg',
     bio_01: '',
     bio_02: '/candidate/src/img/bio/2021-10-15-red-peak-a.JPG',
     intro: ''
@@ -791,12 +791,29 @@ let blog_67 = {
     icon_size: blog_icon.size
 }
 
-let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60, blog_62, blog_63, blog_64, blog_65, blog_66, blog_67];
+let blog_68 = {
+    title: '09 December 2025 08:11',
+    text: "There's a lot going on with regional councils at the moment - and later today the Government will release some resource management reform papers that will add another layer to the announcement two weeks ago regarding the abolishment of regional councillors over the next couple of years. <br> <br> I will be making further statements regarding all of this reform early next year, as we shape our council submissions. I personally believe that reform is needed, but it is critical for the future of Christchurch that we get it right.<br><br> See the gallery of our inauguration 6 weeks before the government announced they were planning on removing us from office.",
+    blog_img_boolean: 'true',
+    blog_img_src: 'candidate/src/img/blog/gallery_01.jpg', // Placeholder for first image
+    gallery_images: [
+        'candidate/src/img/blog/gallery_01.jpg',
+        'candidate/src/img/blog/gallery_02.jpg',
+        'candidate/src/img/blog/gallery_03.jpg',
+        'candidate/src/img/blog/gallery_04.jpg'
+    ],
+    is_gallery: true,
+    icon_type: blog_icon.type, 
+    icon_title: photo_icon.title,
+    icon_size: blog_icon.size
+}
+
+let blog_total = [ blog_9, blog_10, blog_11, blog_12, blog_13, blog_14, blog_15, blog_16, blog_17, blog_18, blog_19, blog_20, blog_21, blog_22, blog_23, blog_24, blog_25, blog_26, blog_27, blog_28, blog_29, blog_30, blog_31, blog_32, blog_33, blog_34, blog_35, blog_36, blog_37, blog_38, blog_39, blog_40, blog_41, blog_42, blog_43, blog_44, blog_45, blog_46, blog_47, blog_48, blog_49, blog_50, blog_51, blog_52, blog_53, blog_54, blog_55, blog_56, blog_58, blog_57, blog_59, blog_60, blog_62, blog_63, blog_64, blog_65, blog_66, blog_67, blog_68];
 
 // Add this new landing video object after your existing blog objects in data.js
 
 let landing_video = {
-    title: 'Update coming soon ;) ....',
+    title: '',
     text: '',
     blog_img_boolean: 'false',
     icon_type: blog_icon.type, 
