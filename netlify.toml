@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "https://councillorjoedavies.com/*"
+  to = "https://joedavies.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.councillorjoedavies.com/*"
+  to = "https://joedavies.io/:splat"
+  status = 301
+  force = true
